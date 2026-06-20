@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 RAG LLM Assistente Virtual do SEI
+# 📖 RAG LLM Assistente Virtual do SEI
 
 ### Pipeline de Retrieval-Augmented Generation especializado no manual do usuário do<br>Sistema Eletrônico de Informações
 
@@ -101,8 +101,6 @@ streamlit run app.py
 
 <div align="center">
 
-Desenvolvido com por **Gustavo**
-
-![Óptima IA](https://img.shields.io/badge/Óptima%20IA-solução%20local-00c2a8?style=flat-square)
+![Desenvolvido com por **Gustavo**](https://img.shields.io/badge/Desenvolvido%20por%20Gustavo-solução%20local-00c2a8?style=flat-square)
 
 </div>
