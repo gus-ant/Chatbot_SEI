@@ -1,0 +1,54 @@
+GUIA DE USO: CLAUDE CODE (OFICIAL)
+
+O Claude Code e um agente de codificacao em linha de comando (CLI) oficial desenvolvido pela Anthropic. Ele roda diretamente no seu terminal e funciona como um programador parceiro autonomo. O Claude Code pode ler e entender o seu projeto, planejar etapas, editar arquivos diretamente, executar comandos do terminal (como compilar, testar e rodar git) e realizar commits.
+
+---
+
+REQUISITOS DO SISTEMA
+- Sistemas Operacionais: macOS 13.0+, Windows 10 (1809+) ou Linux comuns (Ubuntu 20.04+, Debian 10+).
+- Hardware: Pelo menos 4 GB de RAM e processador x64 ou ARM64.
+- Shell: Bash, Zsh, PowerShell ou CMD.
+- Conexao ativa com a Internet e uma conta da Anthropic (com faturamento de API configurado ou assinatura compativel).
+
+---
+
+INSTALACAO (WINDOWS POWERSHELL)
+Abra o PowerShell como administrador e execute o comando abaixo para instalar o Claude Code nativamente no Windows:
+irm https://claude.ai/install.ps1 | iex
+
+*Nota para macOS, Linux ou WSL:*
+curl -fsSL https://claude.ai/install.sh | bash
+
+---
+
+AUTENTICACAO E INICIALIZACAO
+1. Reinicie seu terminal para garantir que o comando seja reconhecido.
+2. Navegue ate a pasta do seu projeto:
+   cd C:\caminho\do\seu\projeto
+3. Execute o comando para iniciar o assistente:
+   claude
+4. O CLI exibira um link e um codigo de autenticacao de uso unico. Abra o link no navegador, faca login com sua conta da Anthropic, insira o codigo exibido no terminal e conclua a autorizacao.
+
+---
+
+COMO USAR NO DIA A DIA
+Uma vez autenticado, basta digitar `claude` no terminal do seu projeto. Voce entrara em um chat interativo onde pode digitar comandos em linguagem natural, por exemplo:
+- "Analise o projeto e me diga o que ele faz."
+- "Corrija o erro no arquivo index.js."
+- "Crie testes unitarios para a funcao de soma no arquivo de utilitarios."
+- "Rode os testes e corrija qualquer falha que encontrar."
+
+O Claude Code ira planejar a acao, pedir permissao para ler arquivos ou executar comandos, e realizar o trabalho. Ele pode rodar testes, rodar git diff e criar commits para voce.
+
+---
+
+COMANDOS INTERNOS (SLASH COMMANDS)
+Ao digitar `/` no chat do Claude Code, voce acessa comandos internos uteis:
+- `/help` : Mostra a lista de comandos disponiveis e ajuda geral.
+- `/clear` : Limpa o historico de conversa para iniciar uma sessao limpa.
+- `/compact` : Resume a conversa ate o momento para economizar tokens de contexto.
+- `/context` : Mostra detalhes do uso de tokens e contexto atual.
+- `/model` : Permite alternar o modelo utilizado (ex: `/model sonnet` ou `/model opus`).
+- `/diff` : Abre uma visualizacao interativa das alteracoes feitas no codigo durante a sessao.
+- `/rewind` : Desfaz as alteracoes e volta o codigo e a conversa para um estado anterior.
+- `/exit` ou `/quit` : Encerra a sessao do Claude Code.

@@ -1,0 +1,35 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ChromaDB / Vector Databases
+chroma_db/
+chroma_db_qwen/
+chroma_db_minilm/
+chroma_db_temp/
+
+# Environment configurations (credentials and settings)
+.env
+.env.qwen
+.env.local
+.env.*.local
+
+# Large local models folder
+models/
+
+# VS Code / IDE configs
+.vscode/
+.idea/
+
+# Streamlit files
+.streamlit/config.toml
+# .streamlit/credentials.toml (ignore personal credentials)
+.streamlit/credentials.toml

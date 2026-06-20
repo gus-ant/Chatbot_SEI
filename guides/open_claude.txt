@@ -1,0 +1,42 @@
+GUIA DE USO: OPENCLAUDE (OPEN SOURCE)
+
+O OpenClaude (ou Open Claude) e uma ferramenta CLI de codigo aberto desenvolvida pela comunidade como uma alternativa flexivel ao Claude Code da Anthropic. Ele replica o fluxo de trabalho de agente autonomo (leitura de arquivos, edicao de codigo, busca com grep/glob, execucao de comandos e comandos barra), mas permite que voce conecte a diversos provedores de IA e modelos diferentes (como OpenAI, Gemini, DeepSeek, Ollama para rodar offline, ou OpenRouter) ao inves de ficar limitado apenas aos modelos oficiais da Anthropic.
+
+---
+
+REQUISITOS E PRE-REQUISITOS
+- Node.js: E necessario ter o Node.js instalado na versao 22.0.0 ou superior.
+- Ripgrep: Recomenda-se ter a ferramenta `ripgrep` instalada no sistema para que as buscas por arquivos e termos funcionem de forma rapida e eficiente.
+- Provedor de IA: Chaves de API configuradas para o provedor de IA de sua preferencia (ex: chave da OpenAI, Gemini, DeepSeek ou rodando localmente com o Ollama).
+
+---
+
+INSTALACAO GLOBAL
+Abra seu terminal (PowerShell, CMD ou terminal do Linux) e execute o comando abaixo para instalar o OpenClaude globalmente:
+npm install -g @gitlawb/openclaude@latest
+
+*Dica para Arch Linux:*
+Tambem pode ser instalado via AUR usando: `paru -S openclaude`
+
+*Verificacao:*
+Confirme se a instalacao ocorreu com sucesso rodando:
+openclaude --version
+
+---
+
+COMO USAR E CONFIGURAR
+1. Navegue ate a pasta do seu projeto de desenvolvimento no terminal:
+   cd C:\caminho\do\seu\projeto
+2. Execute o comando:
+   openclaude
+3. Configurando o Provedor:
+   Ao iniciar pela primeira vez ou quando desejar trocar de modelo, use o comando barra dentro do chat do OpenClaude:
+   /provider
+   Isso abrira um menu interativo onde voce podera escolher o provedor (como OpenAI, Gemini, Ollama, OpenRouter, Anthropic, etc.) e inserir suas respectivas chaves de API ou configurar a URL do endpoint local (no caso do Ollama).
+
+---
+
+VANTAGENS DO OPENCLAUDE
+- Flexibilidade de Modelos: Voce pode usar modelos de custo mais baixo, como o DeepSeek-V3 ou modelos gratuitos do Google Gemini, ou ate mesmo modelos totalmente locais e privados rodando no Ollama (ex: Llama 3, Qwen 2.5, Mistral), economizando com custos de API.
+- Funcionalidades de Agente: Possui capacidades semelhantes de agente de codificacao autotomo (ler, editar, criar arquivos e rodar testes de forma semi-automatica no terminal).
+- Customizacao: Por ser de codigo aberto, voce pode modificar e estender seu comportamento localmente.

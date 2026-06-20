@@ -1,0 +1,11 @@
+python-dotenv
+langchain
+langchain_community
+chromadb
+pypdf
+langchain_huggingface
+langchain_ollama
+# --- dependências do pipeline Qwen3 (rag_qwen.py) ---
+langchain-openai
+pymupdf
+langchain-chroma

@@ -1,0 +1,2961 @@
+
+--- PÁGINA 1 ---
+Sistema Eletrônico de
+Informações
+Manual do Usuário
+Versão 2.5.1
+
+--- PÁGINA 2 ---
+A primeira versão deste Manual do Usuário do SEI foi elaborada
+conjuntamente pelos seguintes órgãos, colaboradores do projeto Processo
+Eletrônico Nacional do Governo Federal:
+
+--- PÁGINA 3 ---
+Sumário
+1 Visão Geral .................................................................. 7
+1.1
+O que é o SEI? .......................................................................................................................... 7
+1.2
+Gestão por Processo e por Desempenho ................................................................................ 8
+1.3
+Boas Práticas de Utilização do Sistema ................................................................................... 9
+1.4
+Vídeos Tutoriais ..................................................................................................................... 10
+2 Iniciando Operações no SEI ....................................... 12
+2.1
+Acesso ao Sistema ................................................................................................................. 12
+2.2
+Barra de Ferramentas............................................................................................................ 12
+2.3
+Menu Principal ...................................................................................................................... 13
+2.4
+Tela “Controle de Processos” ................................................................................................ 14
+2.5
+Tela do Processo .................................................................................................................... 17
+2.6
+Base de Conhecimento.......................................................................................................... 20
+2.7
+Tela do Documento ............................................................................................................... 25
+2.8
+Restrição de Acesso ............................................................................................................... 28
+3 Operações Básicas com Processos ............................ 31
+3.1
+Árvore de Documentos do Processo ..................................................................................... 31
+3.2
+Iniciar Processo ..................................................................................................................... 31
+3.3
+Tipos de Processo .................................................................................................................. 34
+3.4
+Processos com Restrição de Acesso ...................................................................................... 35
+3.5
+Concluir Processos................................................................................................................. 38
+3.6
+Reabrir Processos .................................................................................................................. 39
+3.7
+Excluir Processos ................................................................................................................... 40
+3.8
+Gerar PDF do Processo .......................................................................................................... 41
+4 Trabalho Colaborativo .............................................. 44
+4.1
+Receber Processos na Unidade ............................................................................................. 44
+4.2
+Atribuir Processos a um Usuário ........................................................................................... 44
+4.3
+Enviar Processos para outra Unidade ................................................................................... 46
+4.4
+Controle de Prazos ................................................................................................................ 48
+4.5
+Inserir Anotações .................................................................................................................. 50
+4.6
+Ciência ................................................................................................................................... 51
+
+--- PÁGINA 4 ---
+5 Relações entre Informações ..................................... 54
+5.1
+Sobrestar Processo ................................................................................................................ 54
+5.2
+Relacionar Processos ............................................................................................................. 56
+5.3
+Anexar Processos .................................................................................................................. 57
+6 Recuperando Informações ........................................ 62
+6.1
+Verificará o Histórico de Modificações ................................................................................... 62
+6.2
+Acrescentar Informações ao Histórico .................................................................................. 62
+6.3
+Acompanhamento Especial ................................................................................................... 64
+6.4
+Blocos Internos ...................................................................................................................... 66
+6.5
+Métodos de Pesquisa ............................................................................................................ 70
+6.6
+Medições de Desempenho .................................................................................................... 74
+7 Operações Básicas com Documentos ....................... 83
+7.1
+Incluir Documentos ............................................................................................................... 83
+7.2
+Documentos Gerados no Sistema ......................................................................................... 85
+7.3
+Editar Documentos ................................................................................................................ 88
+7.3.1
+Incluir Imagens .............................................................................................................. 91
+7.3.2
+Referenciar Documentos ou Processos ......................................................................... 93
+7.4
+Versões .................................................................................................................................. 95
+7.5
+Textos Padrão ........................................................................................................................ 96
+7.6
+Modelos de Documentos ...................................................................................................... 98
+7.7
+Publicar Documentos .......................................................................................................... 102
+7.8
+Documentos Externos ......................................................................................................... 104
+7.8.1
+Orientações para Digitalização .................................................................................... 108
+7.9
+Excluir Documentos ............................................................................................................. 110
+7.10
+Cancelar Documento ........................................................................................................... 111
+8 Assinaturas .............................................................. 114
+8.1
+Restrição à Visualização de Minutas ................................................................................... 114
+8.2
+Bloco de Reunião ................................................................................................................. 114
+8.3
+Assinatura de Documento Interno ...................................................................................... 118
+8.4
+Assinatura de Documento Externo ..................................................................................... 120
+8.5
+Credenciais de Assinatura ................................................................................................... 122
+8.6
+Assinaturas por Usuários de outras Unidades .................................................................... 124
+
+--- PÁGINA 5 ---
+8.7
+Assinar Documentos em Bloco de Assinatura ..................................................................... 127
+9 Copiando e Movendo Informações ......................... 132
+9.1
+Duplicar Processo ................................................................................................................ 132
+9.2
+Mover Documentos Externos.............................................................................................. 133
+9.3
+Alterar a Ordem dos Documentos ...................................................................................... 134
+10 Usuários Externos ................................................... 136
+10.1
+Interface com Usuários Externos ........................................................................................ 136
+10.2
+Enviar E-mails ...................................................................................................................... 137
+10.3
+Grupos de E-mail ................................................................................................................. 139
+10.4
+Acesso Externo .................................................................................................................... 141
+10.5
+Assinatura por Usuário Externo .......................................................................................... 143
+11 Arquivamento ......................................................... 147
+11.1
+Arquivamento e Contagem de Temporalidade ................................................................... 147
+11.2
+Solicitar Desarquivamento (conferir via física) ................................................................... 147
+
+--- PÁGINA 6 ---
+Parte I
+Visão Geral
+
+--- PÁGINA 7 ---
+1 Visão Geral
+1.1 O que é o SEI?
+O Sistema Eletrônico de Informações (SEI), desenvolvido pelo
+Tribunal Regiãonal Federal da 4ª Região (TRF4), é um sistema de gestão de
+processos e documentos arquivísticos eletrônicos, com interface amigável e
+práticas inovadoras de trabalho. Uma das suas principais características é a
+libertação do papel como suporte físico para documentos institucionais e o
+compartilhamento do conhecimento com atualização e comunicação de novos
+eventos em tempo real.
+O
+é um dos produtos do projeto Processo Eletrônico Nacional
+(PEN), iniciativa conjunta de órgãos e entidades de diversas esferas da
+Administração Pública, com o intuito de construir uma infraestrutura pública
+de processos e documentos administrativos eletrônicos. Coordenado pelo
+Ministério do Planejamento, Orçamento e Gestão, o PEN proporciona a
+integração de diferentes esforços que já estavam em curso no âmbito do
+Governo Federal e possibilita melhorias no desempenho dos processos da
+Administração Pública, com ganhos em agilidade, produtividade, transparência
+e satisfação do público usuário e redução de custos. A intenção do projeto é
+disponibilizar uma solução flexível o bastante para ser adaptada à realidade de
+órgãos e entidades da Administração Pública de diferentes áreas de negócio. A
+solução será disponibilizada no Portal do Software Público do Governo Federal.
+O
+é uma ferramenta que permite a produção, edição,
+assinatura
+e
+trâmite
+de
+documentos
+dentro
+do
+próprio
+sistema,
+proporcionando a virtualização de processos e documentos, permitindo
+atuação simultânea de várias unidades ao mesmo tempo em um mesmo
+processo, ainda que distantes fisicamente, reduzindo o tempo de realização
+das atividades.
+Principais facilidades do
+:
+a. Portabilidade: 100% Web e pode ser acessado por meio dos
+principais navegadores do mercado: Internet Explorer, Firefox
+e Google Chrome;
+b. Acesso Remoto: em razão da portabilidade já mencionada,
+pode ser acessado remotamente por diversãos tipos de
+equipamentos, como microcomputadores, notebooks, tablets
+e smartphones de vários sistemas operacionais (Windows,
+
+--- PÁGINA 8 ---
+Linux, IOS da Apple e Android do Google). Isto possibilita que
+os usuários trabalhem a distância;
+c. Acesso de usuários externos: gerencia o acesso de usuários
+externos aos expedientes administrativos que lhes digam
+respeito, permitindo que tomem conhecimento do teor do
+processo e, por exemplo, assinem remotamente contratos e
+outros tipos de documentos;
+d. Controle de nível de acesso: gerencia a criação e o trâmite de
+processos e documentos restritos e sigilosos, conferindo o
+acesso somente às unidades envolvidas ou a usuários
+específicos;
+e. Tramitação em múltiplas unidades: incorpora novo conceito
+de processo eletrônico, que rompe com a tradicional
+tramitação linear, inerente à limitação física do papel. Deste
+modo,
+várias
+unidades
+podem
+ser
+demandadas
+simultaneamente a tomar providências e manifestar-se no
+mesmo expediente administrativo, sempre que os atos sejam
+autônomos entre si;
+f. Funcionalidades específicas: controle de prazos, ouvidoria,
+estatísticas da unidade, tempo do processo, base de
+conhecimento, pesquisa em todo teor, acompanhamento
+especial,
+modelos
+de
+documentos,
+textos
+padrão,
+sobrestamento de processos, assinatura em bloco, organização
+de processos em bloco, acesso externo, entre outros;
+g. Sistema intuitivo: estruturado com boa navegabilidade e
+usabilidade.
+1.2 Gestão por Processo e por Desempenho
+Um dos principais conceitos do sistema é a gestão por processo.
+Assim, para se criar um documento deve-se antes iniciar o Tipo de Processo
+correspondente ou inserir o documento em um processo já existente. Isso
+viabiliza os relatórios de Estatísticas da Unidade e Desempenho de Processos
+no
+, o que inclui o tempo médio de cada Tipo de Processo no Órgão e o
+tempo médio de tramitação do Tipo de Processo em cada Unidade (para saber
+mais sobre estatísticas, consulte: Medições de Desempenho).
+
+--- PÁGINA 9 ---
+1.3 Boas Práticas de Utilização do Sistema
+Para garantir melhor aproveitamento dos recursos do sistema no
+decorrer do tempo e o alcance dos resultados pretendidos de maneira eficaz,
+são aconselháveis algumas práticas:
+a. Padronizar procedimentos: por ser uma solução bastante
+flexível, o
+proporciona formas variadas de utilização de
+suas funcionalidades, assim como permite a adaptação a
+diferentes realidades. Por isso, é importante que órgãos e
+instituições padronizem procedimentos em diversãos níveis,
+tanto por meio da implementação de normas de utilização do
+sistema, quanto pela padronização de processos de trabalho
+em cada unidade. A instituição de normas e procedimentos
+proporciona segurança da informação e a organização do
+trabalho. Padronizações no âmbito das unidades (tais como
+tipos de documentos, tabelas de temporalidade, metodologias
+e nomenclaturas comuns) facilitam a utilização de recursos que
+o sistema oferece, tais como pesquisa e medição de
+desempenho dos processos (para saber mais sobre pesquisas e
+medições, consulte: Métodos de Pesquisa e Medições de
+Desempenho);
+b. Acesso como regra e o sigilo como exceção: a transparência é
+um instrumento de controle social que proporciona meios para
+garantir a correta atuação do Estado. O
+adota a filosofia da
+transparência administrativa, ainda que permita atribuir
+restrição de acesso a processos e documentos em casos
+específicos. O sistema tem como princípio a transparência do
+fluxo de informações e o trabalho colaborativo. O ideal é que
+se facilite e priorize a publicidade como forma de garantir o
+funcionamento eficiente do sistema;
+c. Respeitar as etapas do processo e o fluxo de informações: O
+proporciona instrumentos para medição e monitoramento
+dos processos. Também proporciona meios de manter um
+processo ou conjuntos de processos em permanente
+acompanhamento, sem que isso interfira nos fluxos de
+atividades e andamentos. Por isso, é importante cumprir cada
+
+--- PÁGINA 10 ---
+etapa de maneira eficiente para a correta medição de
+desempenho dos processos, assim como deve ser feito uso de
+funcionalidades de pesquisa e acompanhamento para consulta
+a informações. Um exemplo de boa prática é a conclusão do
+processo ou seu envio para outra unidade tão logo as
+atividades pertinentes na unidade sejam finalizadas, sem
+mantê-lo desnecessariamente aberto na unidade atual (para
+saber mais sobre pesquisa, acompanhamento e medições,
+consulte: Métodos de Pesquisa, Acompanhamento Especial,
+Blocos Internos e Medições de Desempenho).
+d. Dar preferência ao editor do
+: Embora o sistema permita
+importar alguns formatos de arquivo (Documento Externo), os
+documentos formais do órgão devem ser redigidos no próprio
+sistema (Documento Interno). É possível a customização de
+tipos de documentos em obediência aos padrões e formatação
+estabelecidos por instrumentos legais, tais como o Manual de
+Redação da Presidência da República. Os tipos de documentos
+também podem ser configurados de acordo com a realidade
+dos órgãos e instituições. Outras vantagens do uso de
+Documentos Internos são seus formatos padronizados e
+automatizados (data, numeração, endereço da unidade,
+processo de referência e número SEI), além da possibilidade
+dos documentos que exigirem publicação oficial serem
+publicados diretamente no
+em Veículo de Publicação,
+interno (p. ex. Boletim de Serviço) ou externo (Portal).
+1.4 Vídeos Tutoriais
+A opção
+está disponível na Barra de ferramentas do
+sistema
+. Esta opção contém uma relação de vídeos que descrevem passo a
+passo várias funcionalidades do sistema. Ao clicar sobre a opção, será
+apresentado um índice de vídeos com a descrição de algumas funcionalidades.
+Basta clicar sobre a descrição desejada e o sistema abrirá outra tela,
+possibilitando dar início ao vídeo.
+
+--- PÁGINA 11 ---
+Parte II
+Iniciando
+Operações no SEI
+
+--- PÁGINA 12 ---
+2 Iniciando Operações no SEI
+2.1 Acesso ao Sistema
+Para acessar o
+, o usuário deve utilizar seu login e senha:
+2.2 Barra de Ferramentas
+O
+possui uma barra de ferramentas no topo da página:
+Segue abaixo a descrição de cada item da Barra:
+Item
+Descrição
+“Para saber +”: disponibiliza lista de vídeos com
+o passo a passo de várias funcionalidades do
+.
+“Menu” Permite ocultar ou mostrar o menu
+principal.
+“Pesquisa” Possibilita uma busca rápida com
+diversãos parâmetros sobre o processo ou
+documento.
+“Caixa de seleção de Unidade” Informa ao
+usuário em qual unidade ele está logado e
+possibilita navegar pelas unidades para as quais
+tenha permissão.
+
+--- PÁGINA 13 ---
+“Controle de Processos”: permite ao usuário
+voltar à página inicial.
+“Novidades”: permite ao usuário manter-se
+informado
+sobre
+novas
+funcionalidades
+adicionadas ao
+.
+“Usuário”: identifica o usuário que está logado.
+“Configurações do Sistema”: permite ao usuário
+alterar o esquema de cores.
+“Sair do Sistema”: permite ao usuário sair com
+segurança do sistema.
+2.3 Menu Principal
+É a barra cinza localizada na lateral esquerda da tela, que
+disponibiliza um conjunto de funcionalidades, podendo ser distintas a
+depender do perfil do usuário ou do tipo de unidade. O perfil básico apresenta
+as seguintes opções:
+
+--- PÁGINA 14 ---
+2.4 Tela “Controle de Processos”
+É a tela principal do
+, onde são visualizados todos os processos
+que estão abertos na unidade. Os processos estão separados em dois grupos:
+processos recebidos de outra unidade
+e processos gerados pela própria
+unidade do usuário logado
+:
+Esta tela ainda apresenta um grupo de ííícones
+com
+funcionalidades que possibilitam efetuar operações para um conjunto de
+processos (operações em lote). Basta marcar a caixa de seleção ao lado do
+número de cada processo e, então, selecionar o íícone correspondente à ação
+desejada:
+Segue a descrição detalhada das funcionalidades destes ííícones:
+Item
+Descrição
+“Enviar Processo”: utilizado para tramitar processos para outra
+unidade. Conclui o processo na unidade remetente, a menos
+que, no momento do envio, seja marcada a opção “Manter
+processo aberto na unidade atual”.
+O processo desaparecerá da tela do Controle de Processos, mas
+poderá ser recuperado na Pesquisa ou Acompanhamento
+
+--- PÁGINA 15 ---
+Especial.
+“Atualizar
+Andamento”:
+utilizado
+para
+incluir
+uma
+informação/despacho
+de
+andamento
+ao(s)
+processo(s)
+selecionado(s). Serve para registros meramente interlocutórios e
+explicações de situações.
+“Atribuição de Processos”: utilizado para distribuir os processos.
+Informa que o processo está sob a responsabilidade de um
+usuário da unidade.
+“Incluir em Bloco”: utilizado para organizar os processos dentro
+do sistema. Esse íícone permite incluir o processo em um Bloco
+Interno ou em um Bloco de Reunião.
+“Sobrestar Processo”: utilizado quando o processo precisa
+aguardar alguma providência antes de ter prosseguimento.
+“Concluir Processo nesta Unidade”: utilizado para fechar o
+processo na unidade, quando não há mais nenhuma ação a ser
+tomada pela unidade.
+O processo desaparecerá da tela do Controle de Processos, mas
+poderá ser recuperado na pesquisa.
+“Anotações”: utilizado para inserir informações adicionais que
+não devem constar dos autos do processo, geralmente
+orientações internas de trabalho da equipe.
+“Processos com Credencial de Acesso nesta Unidade”: utilizado
+para controlar os processos sigilosos (reservado, secreto,
+ultrassecreto) em que o usuário possui credencial. Visível apenas
+para usuários que possuam credencial de acesso a processos
+sigilosos.
+A tela “Controle de Processos” também apresenta símbolos e
+orientações visuais para facilitar a identificação da situação de cada processo
+dentro dos grupos
+e
+:
+Item
+Descrição
+Apresenta apenas os processos atribuídos ao
+usuário logado. Para voltar à tela anterior,
+basta clicar em “Ver todos os processos”.
+
+--- PÁGINA 16 ---
+Login entre parêntese: informação do usuário
+a quem o processo foi atribuído na unidade.
+Processos com número em preto: processos
+com nível de acesso público ou restrito já
+acessados por algum usuário da unidade.
+Processos
+com
+número
+em
+vermelho:
+processos remetidos à unidade ainda não
+acessados.
+Processos com número em azul: processos
+acessados e/ou que sofreram alguma ação pelo
+usuário por login/sessão.
+Processos com fundo preto: processos com
+nível de acesso sigiloso já acessados por algum
+usuário da unidade. Somente são visíveis para
+usuários com credencial de acesso ao processo
+sigiloso.
+Processos com fundo vermelho: processos
+sigilosos
+que
+ainda
+não
+foram
+recebidos/acessados.
+Processos com fundo azul: processos sigilosos
+acessados e/ou que sofreram alguma ação pelo
+usuário por login/sessão.
+Alerta que o processo remetido para a unidade
+do usuário tem prazo de retorno programado a
+vencer.
+Alerta que o processo remetido para unidade
+está com prazo de retorno programado
+expirado (atrasado).
+Um documento do processo foi publicado.
+Alerta que indica a inclusão de um novo
+documento no processo ou indica que um
+documento (externo ou interno) foi assinado.
+Anotação simples.
+
+--- PÁGINA 17 ---
+Anotação com prioridade.
+Alerta que existe um documento sigiloso (com
+credencial) para ser assinado.
+Ao passar o cursor sobre o número do processo (sem clicar), é
+mostrada a informação do “Tipo de Processo” e a “Especificação” (ambas são
+registradas no momento da abertura de um processo).
+Para acessar o conteúdo de um processo, basta clicar sobre o
+respectivo número.
+2.5 Tela do Processo
+Ao clicar em um dos processos listados na tela de “Controle de
+Processos” será apresentada uma nova tela que possibilitará ao usuário
+visualizar seu conteúdo, conforme figura abaixo. O lado esquerdo
+mostra o
+número do processo e a respectiva relação de documentos organizados por
+ordem de autuação. A seguir é mostrada a opção de “Consultar Andamento”.
+Em seguida, são mostrados os “Processos Relacionados”, se houver.
+À direita
+são mostrados todos os ííícones de operações
+possíveis para o processo e, logo após, são mostradas as unidades nas quais o
+processo está aberto:
+
+--- PÁGINA 18 ---
+Há situações em que o processo não possui andamentos abertos,
+está sobrestado ou foi anexado a outro processo. Nestes casos, apenas os
+ííícones com operações pertinentes, assim como o status do processo são
+exibidos.
+A tela do processo apresenta os mesmos ííícones da tela “Controle
+de Processos” (com operações possíveis para grupos de processos), além de
+outros ííícones com funcionalidades que permitem atuação sobre o processo em
+questão:
+
+--- PÁGINA 19 ---
+1. Apenas nos processos sigilosos serão visualizados os ííícones:
+Segue abaixo descrição detalhada das funcionalidades dos ííícones
+da tela do processo (para verificará a descrição dos ííícones da tela do processo
+que também estão na tela “Controle de Processos”, consulte Tela “Controle de
+Processos”).
+Item
+Descrição
+“Incluir Documento”: utilizado para criar um novo documento ou
+inserir (arquivos definidos como: “externos”) no processo.
+“Ciência”: utilizado principalmente para que as unidades
+informem ao remetente que tiveram ciência do processo,
+dispensando a necessidade de se criar um novo documento para
+este fim.
+“Consultar/alterar processo”: utilizado para consultar ou alterar
+os dados de cadastro do processo, tais como: descrição,
+interessado, destinatário e nível de acesso.
+“Duplicar processo”: utilizado para duplicar os documentos
+integrantes de um processo.
+“Relacionar processos”: permite vincular virtualmente um
+processo a outro.
+“Enviar Correspondência Eletrônica”: permite enviar e-mail
+relacionado ao processo, com ou sem anexos.
+“Gerenciar Disponibilização de Acesso Externo”: utilizado para
+liberar acesso a um usuário externo. Envia e-mail com link que
+dará acesso aos documentos do processo.
+Atenção
+
+--- PÁGINA 20 ---
+“Acompanhamento Especial”: possibilita ao usuário acompanhar
+o andamento do processo mesmo que ele esteja tramitando em
+outra unidade.
+“Anexar Processo”: utilizado para anexar um processo a outro.
+“Gerar arquivo do processo”: utilizado para gerar um arquivo do
+processo no formato PDF. O usuário pode escolher quais
+documentos ele deseja incluir no arquivo.
+“Excluir”: utilizada para excluir um processo criado na unidade,
+desde que ele não tenha sido enviado a outras unidades.
+“Controle de Processos”: utilizado para retornar à página inicial
+do
+.
+“Gerenciar Credencial de Acesso”: permite que o usuário que
+recebeu permissão de acesso a um processo sigiloso possa
+conceder permissão a outro usuário.
+“Renunciar Credencial de Acesso”: utilizado para cancelar a
+credencial de acesso a um processo. Visível apenas aos usuários
+com credencial de acesso ao processo.
+2.6 Base de Conhecimento
+Funcionalidade que permite descrever as etapas de um processo e
+anexar documentos relacionados ao “Tipo de Processo” vinculado àquela base
+de conhecimento. As bases relacionadas podem ser consultadas por todas as
+unidades por meio do íícone
+.
+O íícone é visualizado ao lado do número de protocolo do processo,
+para todos os processos criados com o “Tipo de Processo” correspondente,
+incluindo os processos que foram abertos antes da criação da base.
+
+--- PÁGINA 21 ---
+Uma Base de Conhecimento somente pode ser modificada pela
+Unidade que a criou.
+Enquanto boa prática, de forma a garantir uniformidade e a
+eficiência dentro da instituição, as bases de conhecimento devem ser criadas
+pela Unidade com competência sobre os procedimentos afetos ao Tipo de
+Processo.
+Para criar a base de conhecimento, o usuário deve selecionar o
+menu “Base de Conhecimento”:
+Em seguida, clicar no botão
+:
+O sistema abrirá a tela “Novo Procedimento”, para preenchimento
+do campo “Descrição” e seleção dos Tipos de Processo Associados com a Base
+de Conhecimento em criação. Ao procedimento, é possível anexar arquivos que
+contenham detalhes sobre o processo de trabalho, por exemplo, um diagrama
+de fluxo:
+
+--- PÁGINA 22 ---
+Após salvar as informações, o
+abrirá automaticamente uma
+tela em que deverá ser informado o conteúdo do procedimento, conforme
+padrão definido pelo Administrador do Sistema:
+No conteúdo do procedimento é importante utilizar hiperlinks (da
+Intranet ou Internet) sobre os termos que referenciem leis, decretos, portarias
+e até mesmo sistemas informatizados relacionados com o trabalho. No campo
+“Quais documentos são necessários?”, devem-se referenciar os Tipos de
+Documentos disponíveis no
+.
+Ao finalizar o preenchimento, deverá ser selecionado o íícone
+.
+
+--- PÁGINA 23 ---
+Na unidade criadora da base, as informações são acessíveis para
+consulta e edição por meio da opção
+, acessível em “Base de
+Conhecimento”, via menu principal:
+O sistema abrirá um quadro com a relação das bases de
+conhecimento da unidade:
+O íícone
+é utilizado para visualizar o
+conteúdo do procedimento.
+O íícone
+é utilizado para editar o
+conteúdo do procedimento.
+O íícone
+permite que o usuário altere
+os dados de cadastro do procedimento (Descrição, Tipos de Processo
+Associados e Anexo).
+Depois de finalizadas as edições, deve-se clicar no íícone
+para que a base possa ficará disponível e finalmente ser exibida ao
+lado do número de protocolo dos Tipos de Processo correspondentes.
+Após liberada a primeira versão do Procedimento, somente será
+possível
+alterar
+seu
+cadastro
+e
+conteúdo
+por
+meio
+do
+íícone
+. Com isso, o sistema abrirá uma tela para,
+primeiramente, alterar o cadastro do Procedimento:
+
+--- PÁGINA 24 ---
+Após as modificações, deve-se clicar em
+:
+Bases de conhecimento com diversas versões apresentam o íícone
+:
+O íícone abre um quadro com a lista e detalhes das versões:
+
+--- PÁGINA 25 ---
+O íícone
+permite ao usuário excluir o
+procedimento.
+2.7 Tela do Documento
+Um documento selecionado recebe uma marcação em azul. O
+sistema abre uma tela que contém duas áreas. À esquerda mostra o número do
+processo, a respectiva relação de documentos, enfatizando o documento
+selecionado
+. Logo abaixo é mostrada a opção de consulta ao andamento do
+processo
+. À direita são mostrados todos os ííícones de operações possíveis
+para documentos
+. Abaixo dos ííícones, é mostrado o corpo do documento.
+Ao clicar em um dos documentos que compõem o processo será
+apresentado um novo menu com as ações que poderão ser realizadas no
+documento. No caso de documento externo será apresentada uma barra de
+menu com algumas ações diferentes das apresentadas para os documentos
+internos.
+Documento Interno:
+Documento Interno assinado:
+
+--- PÁGINA 26 ---
+1. O íícone
+é apresentado somente no caso de documento sigiloso.
+Documento Externo:
+Documento Externo assinado:
+Item
+Descrição
+“Atualizar Andamento”: permite ao usuário atualizar o
+andamento da situação do processo sem a necessidade de se
+efetuar um trâmite.
+“Ciência”: permite que o usuário informe à unidade que teve
+ciência do documento, sem a necessidade de se criar um novo
+documento para este fim. A ciência do documento marca,
+automaticamente, ciência do processo.
+“Consultar/Alterar Documento”: permite ao usuário consultar ou
+alterar os dados de cadastro do documento, tais como: descrição,
+interessado, destinatário e nível de acesso.
+“Editar Conteúdo”: permite ao usuário realizar alterações no
+conteúdo de documentos gerados na unidade.
+Atenção
+
+--- PÁGINA 27 ---
+“Assinar Documento”: permite ao usuário assinar
+eletronicamente os documentos gerados no
+.
+“Gerenciar Credenciais de Assinatura”: permite que o usuário
+logado conceda credencial a outro usuário (de qualquer unidade)
+para assinatura de um documento sigiloso.
+“Imprimir WEB”: Permite que o usuário imprima um documento.
+Visível somente para documentos produzidos no editor de texto
+do
+.
+“Gerenciar Liberações para Assinatura Externa”: permite que um
+usuário externo assine um documento produzido no
+.
+“Incluir em Bloco de Assinatura”: permite que mais de um
+usuário, de qualquer unidade, possa assinar um documento
+produzido no
+.
+“Enviar Documento por Correio Eletrônico”: permite ao usuário
+enviar um documento por e-mail por meio do
+.
+“Cancelar Documento”: permite o cancelamento de um
+documento que seja desnecessário ao processo. Essa opção deve
+ser utilizada se o documento já tiver sido tramitado ou
+visualizado por outra unidade, caso contrário usar a opção
+“Excluir”. O cancelamento do documento sempre deverá ser
+justificado, pois equivale a um Desentranhamento.
+“Adicionar aos Modelos Favoritos”: permite que o usuário defina
+o documento como modelo, para aproveitar seu formato e
+conteúdo na confecção de novos documentos.
+“Versões do Documento”: permite ao usuário saber quantas
+vezes um documento gerado no
+foi editado, quando e por
+quem.
+“Excluir”: permite ao usuário excluir um documento criado na
+unidade que seja desnecessário ao processo, antes do trâmite ou
+visualização por outra unidade.
+“Mover documento para outro processo”: permite mover um
+documento externo de um processo para outro.
+
+--- PÁGINA 28 ---
+2.8 Restrição de Acesso
+Ao abrir um processo ou criar um documento no
+, deverá ser
+indicado o nível de acesso.
+Há três níveis de acesso possíveis: sigiloso, restrito e público. Os
+níveis de restrição de acesso permitidos são configurados durante o cadastro
+do tipo de processo. Significa que só é possível abrir um processo sigiloso se
+essa opção estiver configurada como permitida para o tipo de processo
+escolhido. Os tipos de processos que podem ser sigilosos aparecem com o
+fundo vermelho na lista “Escolha o Tipo do Processo”.
+É desejável que a maioria dos tipos de processo não possua
+restrição de acesso. No entanto, há casos em que abrir a informação em um
+momento inoportuno pode causar danos. Para estes casos é importante
+restringir o acesso à informação, informando a hipótese legal que ampara tal
+situação.
+O campo “Hipótese Legal” deverá ser preenchido com uma das
+opções disponíveis na barra de rolagem.
+Um processo sigiloso, além do campo “Hipótese legal”, apresenta
+a relação de “categorias do sigilo”, de seleção obrigatória, em conformidade
+com a Lei de Acesso à Informação (LAI), Lei nº 12.527, de 18 de novembro de
+2011.
+Deve ser escolhida uma das opções: “Secreto”, “Ultrassecreto” ou
+“Reservado” e salvar informações.
+1. Ao inserir um documento restrito em um processo público, o processo
+assumirá, automaticamente, o comportamento do nível de acesso deste
+Dicas
+
+--- PÁGINA 29 ---
+documento. Também se deve levar em consideração que, ao criar um
+processo com nível de restrição de acesso, todos os documentos nele
+inseridos, independentemente de serem públicos ou não, assumirão o
+comportamento do maior nível de restrição de acesso, ou seja, o conjunto
+sempre assumirá as características do maior nível de restrição de acesso.
+De qualquer forma, é importante que o usuário sempre indique o nível de
+acesso documento a documento, dependendo da informação neles
+contida, evitando restringir o acesso do processo como um todo.
+2. Processos sigilosos não são recuperáveis pela funcionalidade de pesquisa.
+Também não são registrados nas estatísticas do sistema (para saber mais
+sobre estatísticas que o sistema oferece, consulte: Medições de
+Desempenho).
+3. Processos restritos podem ser recuperados pela funcionalidade de
+pesquisa. No entanto, os conteúdos de todos os documentos (mesmo
+assinados) são inacessíveis para usuários das unidades em que o processo
+não tenha tramitado (para saber mais sobre a funcionalidade de pesquisa,
+consulte: Métodos de Pesquisa).
+4. Ao realizar a pesquisa de um processo em que um documento tenha
+recebido restrição de acesso, todo o processo, ou o conteúdo de todos os
+documentos desse processo, não poderão mais ser visualizados. Somente
+serão visualizados o número do processo e a descrição de cada documento.
+5. Para alterar o nível de acesso de “Restrito” ou “Público” para “Sigiloso”, o
+processo deve estar aberto somente para a unidade que efetua a
+operação.
+6. Processos e documentos restritos são identificados por uma chave amarela
+ao lado dos respectivos números.
+7. Processos e documentos sigilosos são identificados por uma chave
+vermelha.
+
+--- PÁGINA 30 ---
+Parte III
+Operações
+Básicas com
+Processos
+
+--- PÁGINA 31 ---
+3 Operações Básicas com Processos
+3.1 Árvore de Documentos do Processo
+Todos os documentos do processo são organizados por ordem de
+inclusão, na vertical, em um modo de visualização denominado “árvore de
+documentos do processo”:
+Processos que, por sua natureza, comportem grande volume de
+documentos apresentam seus conteúdos aglutinados em pastas, de modo que
+sempre fiquem visíveis os últimos documentos inseridos. Essa aglutinação não
+pode ser confundida com “Volume de Processo”, que é típico de processos em
+suporte físico, não existente em processo eletrônico.
+3.2 Iniciar Processo
+Para a abertura de um processo, deve ser selecionada a opção
+"Iniciar Processo" no menu principal:
+
+--- PÁGINA 32 ---
+Na tela "Iniciar Processo" será escolhido o tipo de processo
+desejado. Os tipos mais usados ficam em destaque assim que a tela é aberta.
+Para outros tipos, deve ser selecionado o íícone
+ao lado de "Escolha o Tipo de Processo". Já, para voltar à tela anterior deverá
+ser selecionado o íícone
+.
+O próximo passo é o preenchimento de dados de cadastro do
+processo.
+Estão disponíveis os campos: “Protocolo”, “Especificação”
+(opcional),
+“Classificação
+por
+Assuntos”,
+“Interessados”
+(opcional),
+“Observações desta unidade” (opcional) e seleção do “Nível de Acesso”.
+Quando se tratar de um novo processo, deve se deixar marcada a
+opção “Automático”. Assim o próprio
+fornecerá seu número único:
+Caso contrário, deverá ser selecionada a opção “Informado”.
+Neste caso, automaticamente será disponibilizado um campo para que seja
+inserido o número de processo e sua data de autuação original:
+
+--- PÁGINA 33 ---
+Com exceção dos campos “Protocolo informado” e “Data de
+Autuação”, o sistema permite que todos os demais dados de cadastro do
+processo
+sejam
+alterados
+posteriormente
+por
+meio
+do
+íícone
+(tela do processo), inclusive o Tipo de Processo.
+O campo “Especificação” permite a inclusão de 50 caracteres e é
+utilizado para acrescentar informações que diferenciem processos de um
+mesmo tipo. Estas informações ficam visíveis ao passar o cursor sobre o
+número do processo na tela “Controle de Processos”, juntamente com o Tipo
+de Processo:
+O campo "Classificação por Assuntos" é automaticamente
+preenchido e não deve ser alterado sem que o fato seja informado aos
+responsáveis pela gestão documental.
+O campo “Interessados” deve ser preenchido com a denominação
+de pessoa física ou jurídica que tenha interesse sobre o mérito do processo. O
+campo permite a inclusão de vários interessados.
+“Observações
+desta
+unidade”
+é
+um
+campo
+de
+livre
+preenchimento, onde devem ser inseridas informações adicionais que facilitem
+a identificação de um processo e a sua recuperação. As informações desse
+campo só poderão ser recuperadas, na pesquisa, pela unidade que as inseriu.
+Seleção do “Nível de Acesso” é obrigatória para a abertura de um
+processo. Mesmo assim, é possível alterar o nível de acesso de um processo
+posteriormente por meio do íícone
+, disponível na tela do
+processo (para saber mais sobre o nível de restrição de acesso adequado,
+consulte:
+Restrição de Acesso).
+
+--- PÁGINA 34 ---
+1. Embora o sistema não exija o preenchimento dos campos “Especificação”,
+“Interessados” e “Observações desta unidade”, estes campos são
+importantes para a pesquisa de documentos no sistema, sendo desejável a
+adoção de padrões de preenchimento pelas unidades (para saber mais
+sobre a funcionalidade de pesquisa, consulte: Métodos de Pesquisa).
+2. O ideal é que a opção de inserção manual do número de protocolo de um
+processo seja utilizada somente para os casos de processos gerados fora da
+entidade ou processos criados antes da implantação do
+.
+3. O processo recém-aberto é automaticamente atribuído ao usuário que o
+abriu e será mostrado no grupo de processos à direita da tela “Controle de
+Processos” (coluna “Gerados”).
+4. Só podem ser efetuadas modificações no cadastro do processo por meio
+do íícone
+se o processo estiver aberto na unidade.
+Quando não aberto na unidade, o íícone é alterado automaticamente para
+.
+5. A inclusão de um novo tipo de processo deverá ser solicitada à unidade
+responsável pela gestão documental.
+3.3 Tipos de Processo
+Um processo só pode ser aberto se estiver categorizado em um
+tipo disponível na tela “Iniciar Processo”.
+Dicas
+
+--- PÁGINA 35 ---
+Esta tela contém os tipos de processos nos quais os documentos
+serão incluídos, tendo em vista que no
+somente é permitida a tramitação
+de processos.
+É possível alterar o tipo de um processo em trâmite. Basta
+selecionar o número na tela “Controle de Processos”. O sistema abrirá a tela
+do processo. Deverá ser selecionado o íícone
+. Na tela
+“Alterar Processo”, deverá ser selecionada uma das opções disponíveis na
+barra de rolagem do campo “Tipo de processo”. As informações devem ser
+salvas.
+1. A troca de tipo de processo pode ser efetuada em qualquer unidade na
+qual o processo esteja aberto.
+2. A alteração de tipo de processo não fica disponível ao visualizar o
+andamento do processo, por isso, a alteração pode ser registrada
+selecionando-se o íícone
+e descrevendo as alterações no
+campo “Descrição”. Neste caso, é preciso certo cuidado porque as
+informações não podem ser editadas depois que são salvas (para saber
+mais sobre histórico de operações de um processo, consulte: Verificará o
+Histórico de Modificações).
+3.4 Processos com Restrição de Acesso
+Processos e documentos sigilosos são indicados por meio do íícone
+ao lado dos respectivos números (árvore do processo).
+Já, processos e documentos restritos são indicados por meio do
+íícone
+ao lado dos números.
+Dicas
+
+--- PÁGINA 36 ---
+O
+permite que processos sigilosos tenham acompanhamento
+de trâmites usuário a usuário, desde que, credenciados para acesso. Os
+usuários podem ser da unidade geradora ou de outras unidades.
+Para atribuir uma credencial de acesso, o usuário gerador do
+processo sigiloso deve selecionar a opção
+na tela do
+processo. Deve preencher o campo “Conceder Credencial de Acesso para” com
+nome de usuário já cadastrado no sistema.
+Caso o usuário possa se logar em mais de uma unidade, o
+abre
+outro campo onde deve ser informada a unidade do usuário (se o sistema não
+reconhecer o usuário, não abrirá o campo para preenchimento da unidade e a
+operação não será completada).
+Ao selecionar a unidade na barra de rolagem, o sistema abre a
+opção “Conceder”. Ao clicar na opção, é mostrado um quadro com as
+credenciais de acesso concedidas. Na mesma tela é possível conceder
+credenciais para outros usuários. Também é possível “Cassar a Credencial de
+Acesso” (retirar a permissão do usuário) por meio da coluna “Ações” do quadro
+com a lista de credenciais.
+Um usuário que recebeu uma credencial de acesso a um processo
+sigiloso o visualizará com um fundo colorido.
+Ao selecionar o processo, o sistema abre a janela “Credencial de
+Acesso”.
+
+--- PÁGINA 37 ---
+O usuário deverá preencher o campo “Senha” e o sistema abrirá a
+tela do processo.
+Nesta tela estarão disponíveis os ííícones “Gerenciar Credenciais de
+Acesso”
+e “Renunciar Credenciais de Acesso”
+. O primeiro permite que
+o usuário, que recebeu a permissão, conceda credencial de acesso para outro
+usuário. O segundo permite renunciar à credencial com um só clique, basta
+confirmar a operação.
+Ao renunciar a uma credencial, o processo desaparece da tela
+“Controle de Processos”.
+Não é necessário enviar o processo para a unidade do usuário com
+credencial para acesso.
+1. Um processo sigiloso não pode ser incluído em blocos ou em
+acompanhamento especial (para saber mais sobre blocos, consulte:
+Acompanhamento Especial, Blocos Internos, Bloco de Reunião e
+Assinaturas por Usuários de outras Unidades).
+2. Processos sigilosos não podem ser anexados a outros processos. No
+entanto, permitem ser relacionados a outros processos. Neste caso, só
+Dicas
+
+--- PÁGINA 38 ---
+ficam visíveis para os usuários que possuem acesso a eles. Outros usuários
+não conseguem visualizar um processo sigiloso relacionado (para saber
+mais sobre relações entre processos, consulte:
+Relações entre
+Informações).
+3. Processos sigilosos permitem referência somente a documentos do próprio
+processo (para saber mais sobre a inserção de links, consulte: Referenciar
+Documentos ou Processos).
+4. Processos sigilosos não são computados nas pesquisas disponíveis por
+meio do menu “Estatísticas”.
+5. Ao acessar o íícone
+na tela de “Controle de
+Processos” é possível verificará um quadro com a lista de processos sigilosos
+com permissão de acesso para o usuário. Caso não exista nenhum, o íícone
+não fica visível.
+3.5 Concluir Processos
+A conclusão do processo em uma unidade não acarreta a
+conclusão nas demais unidades nas quais esteja aberto.
+O processo pode ser concluído na unidade por dois motivos:
+a. A unidade concluiu sua etapa no processo, ou seja, não há mais
+nenhuma ação a ser tomada por parte da unidade, não
+obstante poder continuar aberto em outras unidades;
+b. O processo já alcançou o seu objetivo em todas as unidades e
+deverá ser concluído na última unidade em que estiver aberto.
+Para efetuar a conclusão, é necessário clicar no número do
+processo e selecionar o íícone
+e confirmar a operação.
+
+--- PÁGINA 39 ---
+Também é possível concluir mais de um processo ao mesmo
+tempo, selecionando a caixa de seleção dos processos desejados na tela
+“Controle de Processos” e clicando no íícone “Concluir Processos Nesta
+Unidade”.
+1. Quando não houver mais nenhuma ação no processo por parte da unidade,
+esta deverá enviá-lo para unidade de destino ou concluí-lo. É fundamental
+que sejam fechados os processos cuja ação já foi concluída. Caso contrário,
+para fins de estatística, o tempo em que ele permanecer aberto
+desnecessariamente na unidade será computado como se o processo
+estivesse em andamento.
+1. O envio de um processo para outra unidade sem selecionar a opção
+, possui o mesmo efeito da conclusão do
+processo para a unidade que efetua o envio.
+2. Um processo concluído em uma unidade pode ser recuperado a qualquer
+tempo por meio da pesquisa, fazendo uso das funcionalidades
+“Acompanhamento Especial” e/ou “Blocos Internos” ou pelo menu
+“Estatísticas” (para saber mais sobre tais funcionalidades, consulte:
+Métodos de Pesquisa, Acompanhamento Especial, Blocos Internos e
+Medições de Desempenho).
+3. Caso um processo possua anotações ao ser concluído, as anotações serão
+automaticamente recuperadas se houver a reabertura do processo na
+unidade que efetuou a conclusão (para saber mais sobre anotações,
+consulte: Inserir Anotações).
+3.6 Reabrir Processos
+Dicas
+Atenção
+
+--- PÁGINA 40 ---
+É permitido reabrir o processo por meio do íícone
+(tela do processo). O sistema automaticamente atribui o processo para o
+usuário que efetuou a operação. Somente é possível reabrir um processo que
+já tenha passado pela unidade em que a operação é efetuada. Após envio para
+outra unidade, o processo poderá ser reaberto a qualquer momento nas
+unidades por onde ele tramitou. Não é necessário solicitar novo trâmite.
+3.7 Excluir Processos
+Para o caso de processos abertos indevidamente, é possível a
+exclusão pela unidade geradora, por meio do íícone
+. Este íícone só
+fica visível nas telas de processos e de documentos quando a operação estiver
+habilitada.
+Para o caso de processos abertos indevidamente, que já tenham
+andamento em outras unidades, a funcionalidade a ser utilizada é a anexação
+de processos (para saber mais sobre anexação de processos, consulte: Anexar
+Processos).
+A exclusão de processos só é permitida, observadas as seguintes
+regras:
+
+--- PÁGINA 41 ---
+a. O processo não poderá ter andamento aberto em outra
+unidade além da geradora: o simples envio para outra unidade
+impossibilita a exclusão, mesmo que não tenha ocorrido
+acesso;
+b. O processo não poderá ter documentos;
+c. O processo possui documentos externos e/ou gerados no
+sistema que podem ser excluídos: permite que sejam
+efetuadas as exclusões de todos os documentos e, depois, a do
+processo (para saber mais sobre exclusão de documentos,
+consulte:
+d.
+e. Excluir Documentos).
+1. Caso um processo seja enviado para outra unidade, ainda que não tenha
+havido acesso na unidade de destino do processo, ainda que não possua
+documentos, ainda que seja mantido aberto na unidade atual e, embora o
+íícone
+permaneça visível, terá a exclusão do processo impedida
+pelo sistema:
+2. Processos excluídos não são recuperados pela funcionalidade de pesquisa
+ou pelo menu “Estatísticas da Unidade”.
+3.8 Gerar PDF do Processo
+Por meio do íícone
+(tela do processo) é
+possível converter um processo em um arquivo em formato PDF. Além dos
+Atenção
+
+--- PÁGINA 42 ---
+documentos gerados internamente, o sistema processa e gera PDF a partir de
+alguns formatos aceitos. O usuário tem a opção de gerar o PDF de todos os
+documentos possíveis ou de selecionar os documentos que deseja converter.
+O sistema não converterá formatos de imagem, som, arquivos
+compactados, documentos cancelados e minutas de documentos de outras
+unidades.
+
+--- PÁGINA 43 ---
+Parte IV
+Trabalho
+Colaborativo
+
+--- PÁGINA 44 ---
+4 Trabalho Colaborativo
+4.1 Receber Processos na Unidade
+A tela “Controle de Processos” organiza todos os processos
+abertos na unidade em dois grupos. O primeiro apresenta os processos
+recebidos e o segundo apresenta os processos gerados na unidade. O
+recebimento de processo ocorre quando o usuário clica sobre o registro que
+aparece em vermelho. O
+registra automaticamente no andamento do
+processo a hora, a unidade e o login do usuário que recebeu o processo.
+4.2 Atribuir Processos a um Usuário
+É possível a atribuição do processo para um usuário específico
+dentro da unidade, ainda que isso não impeça a edição por outro usuário da
+mesma unidade.
+Os processos atribuídos a uma pessoa aparecem com o devido
+login em destaque, ao lado do número do processo.
+Para efetuar a atribuição, deve-se, clicar na caixa de seleção ao
+lado do número do processo ou processos a serem atribuídos. Deve ser
+selecionado o íícone
+. Na tela seguinte, deve ser selecionado
+o nome do destinatário na barra de rolagem do campo “Atribuir para”. As
+informações devem ser salvas.
+
+--- PÁGINA 45 ---
+Ao se clicar em “Ver processos atribuídos a mim” a tela “Controle
+de Processos” apresentará apenas os processos atribuídos ao usuário logado:
+Caso não haja nenhum processo atribuído ao usuário, a tela não
+listará nenhum processo. Para voltar à tela anterior, basta clicar em “Ver todos
+os processos”:
+Para saber como está a distribuição dos processos da Unidade para
+um usuário específico, basta clicar no login do usuário na tela de “Controle de
+Processos”:
+
+--- PÁGINA 46 ---
+Ainda nesta tela, é possível redistribuir os processos atribuídos ao
+usuário, ao selecionar a caixa de seleção ao lado dos números dos processos
+que deverão ser redistribuídos, selecionar um dos usuários disponíveis na barra
+de rolagem do campo “Atribuir para” e clicando-se no botão “salvar”.
+1. Embora seja possível atribuir vários processos por vez, só é possível atribuir
+o processo para um usuário de cada vez.
+2. Processos com o número em vermelho não possuem atribuição porque o
+sistema não permite que sejam atribuídos processos durante o envio de
+uma unidade para a outra, exceto, no caso de processos sigilosos.
+4.3 Enviar Processos para outra Unidade
+Um processo pode ser enviado para outra unidade e permanecer
+aberto na atual. Também pode ser enviado para várias unidades
+concomitantemente. Desse modo, é possível a edição e verificação de
+atualizações em mais de uma unidade ao mesmo tempo.
+Quando um processo é enviado sem ser mantido aberto na
+unidade atual, deixa de ser visualizado na tela “Controle de Processos”.
+Para efetuar o envio, é necessário clicar no número do processo ou
+na caixa de seleção ao lado do número. Deve ser selecionado o íícone
+. Na tela seguinte, deverão ser informadas as unidades de
+destino do processo.
+Esta tela também disponibiliza as opções: “Manter processo
+aberto na unidade atual”, “Remover anotação” (permite remover a anotação
+quando o processo for devolvido), “Enviar e-mail de notificação” (permite
+enviar um e-mail com texto não editável a todos os usuários cadastrados na
+unidade de destino do processo, avisando do envio) e a opção “Retorno
+programado” (permite atribuir uma data em que o processo deva ser
+devolvido). Para saber mais sobre retorno programado, consulte: Controle de
+Prazos.
+Dicas
+
+--- PÁGINA 47 ---
+Após a seleção das opções, deve-se clicar em enviar.
+É possível enviar vários processos para uma unidade clicando na
+caixa de seleção ao lado do número dos devidos processos na tela “Controle de
+Processos” e selecionando o íícone
+(na mesma tela). No
+entanto, o trâmite de vários processos para várias unidades só será possível
+quando todos os processos se destinarem às mesmas unidades, ou seja, não é
+possível o trâmite em bloco quando os processos selecionados têm destinos
+distintos. Nesse caso deverá ser realizado o trâmite individual, ou do conjunto
+com mesmo destino.
+1. Outras formas que possibilitam a visualização concomitante e continuada
+de processos em outras unidades sem que seja realizado seu envio são:
+Bloco de Reunião
+(tela do processo), o Bloco de Assinaturas
+(tela
+do documento) e Acompanhamento Especial
+.
+2. Ao acessar a tela do processo, é exibida a informação das unidades para as
+quais o processo está aberto.
+3. A disponibilização de blocos de assinatura, blocos de reunião e
+acompanhamento especial não implica à abertura dos processos para as
+Dicas
+
+--- PÁGINA 48 ---
+respectivas unidades de disponibilização (para saber mais sobre blocos,
+consulte: Acompanhamento Especial, Blocos Internos, Bloco de Reunião e
+Assinaturas por Usuários de outras Unidades).
+4.4 Controle de Prazos
+A funcionalidade “Retorno Programado” permite informar aos
+destinatários de um processo um prazo para resposta à demanda. É muito útil
+para controle de prazos para demandas urgentes, prazos legais ou regimentais
+sobre as demandas ou prazos definidos por autoridades externas ao Órgão (p.
+ex. Ministério Público e Poder Judiciário).
+Ao enviar um processo para uma ou mais unidades, é possível
+programar a data para devolução da demanda, preenchendo o campo
+“Retorno Programado”.
+O íícone
+“Retorno Programado” fica visível para as unidades de
+destino do processo. Ao passar o cursor sobre o íícone, ele mostra a data de
+retorno e a unidade que o definiu.
+À medida que o prazo vai diminuindo, o íícone muda de cor,
+indicando a proximidade do vencimento
+:
+
+--- PÁGINA 49 ---
+A funcionalidade não retira o acesso ao processo caso a demanda
+não seja atendida no prazo. Ou seja, não trava o trabalho sobre o processo,
+mas apenas marca e controla prazos: quem demandou processo com prazo
+para unidade e quem está devendo processos com prazos definidos pela
+unidade.
+Como regra geral, a unidade demandada com prazo em um
+processo não pode concluí-lo ou enviá-lo para terceiros, exceto se o processo
+for mantido aberto na unidade atual, podendo, neste caso, inclusive, definir
+um outro prazo para a unidade destinatária. Ou seja, o
+também controla
+prazos “em cascata”.
+É possível verificará a relação de controles programados da
+unidade, por meio da opção “Retorno Programado” no menu principal.
+O sistema abrirá uma tela que apresenta um calendário e os
+retornos programados para o dia. No calendário, estarão sinalizados os dias
+com marcação de retorno, em amarelo as datas a vencer ou que o prazo foi
+cumprido até a data estabelecida e em vermelho as datas em atraso.
+Também é possível navegar nos meses e anos. Para tanto, o
+usuário deverá clicar nas setas ao lado do ano ou mês.
+Abaixo do calendário, há a opção “Ver todo o mês” que mostra os
+retornos previstos para o mês:
+O
+organiza as informações em dois quadros:
+a. “Processos para devolver”: relação de processos enviados por
+outras unidades com marcação de prazo para a unidade.
+Aguardam uma ação específica e deverão ser devolvidos
+dentro do prazo determinado;
+
+--- PÁGINA 50 ---
+b. “Processos aguardando retorno de outras unidades”: relação
+de processos que a unidade encaminhou com prazo de retorno
+para outras unidades. Neste quadro também é possível excluir
+ou prorrogar o prazo originalmente estabelecido para a
+demanda.
+1. A unidade destinatária de um processo com retorno programado somente
+pode:
+a. Enviar o processo para a unidade demandante do retorno; ou
+b. Enviar o processo para terceiros, inclusive, podendo também
+atribuir seu próprio retorno programado, desde que mantenha
+o processo aberto na própria unidade. Isso possibilita o
+controle de prazos “em cascata”.
+4.5 Inserir Anotações
+As anotações (post its)
+são de livre preenchimento e uma
+mesma anotação pode ser inserida em vários processos ao mesmo tempo.
+Também é possível mudar o nível de prioridade da anotação por meio do íícone
+e a cor do símbolo de anotação ficaráá em vermelho
+:
+Dicas
+
+--- PÁGINA 51 ---
+A anotação só é visível para a unidade geradora. Significa que
+quando um processo é enviado, de uma unidade para a outra, ela não fica
+visível até que o processo seja devolvido. Caso não seja desejável que ela volte
+a aparecer, é necessário selecionar a opção
+na tela “Enviar
+Processo”.
+Para inserir a anotação, deve-se clicar na caixa de seleção ao lado
+no número do processo ou processos que receberão anotações. Ficará visível
+uma marca de seleção. Deve-se clicar no íícone
+. O sistema abrirá a
+tela de mesmo nome. No campo "Descrição" deverá ser inserido o texto
+pretendido. Para mudar a cor da anotação, basta clicar na caixa de seleção
+"Prioridade" abaixo do campo Descrição e salvar informações.
+4.6 Ciência
+A ciência indica que o documento ou processo foi verificado por
+determinado usuário, quando não é necessária a assinatura. É muito útil nos
+casos de envio de documentos circulares ou mesmo em blocos de reunião.
+a. Para dar ciência no processo: o usuário deverá selecionar o
+número do processo e clicar na opção
+da barra de
+menu do processo;
+b. Para dar ciência no documento: o usuário deverá acessar o
+processo e em seguida selecionar o documento que se
+pretende. Na barra de menu do documento, clicar na opção
+.
+Ao clicar no íícone
+, é possível verificará
+os usuários que conferiram o documento:
+
+--- PÁGINA 52 ---
+É necessário tomar cuidado para não dar ciência em documentos
+equivocadamente. O
+não permite cancelar ou anular a ciência.
+1. Ao atribuir ciência a um documento, automaticamente é atribuída ciência
+ao respectivo processo.
+2. O quadro com a lista de ciências do processo traz, além das informações
+das ciências no processo, também as informações dos quadros das listas de
+ciências de cada documento com descrições detalhadas.
+3. A ciência pode ser atribuída às minutas da própria unidade e às minutas
+inseridas em um bloco de reunião.
+Dicas
+
+--- PÁGINA 53 ---
+Parte V
+Relações entre
+Informações
+
+--- PÁGINA 54 ---
+5 Relações entre Informações
+5.1 Sobrestar Processo
+Esta funcionalidade deve ser utilizada apenas quando houver
+determinação formal para interrupção do trâmite do processo, seja dentro do
+próprio processo ou a partir de outro processo. O sobrestamento faz com que a
+contagem do tempo do processo fique suspensa, até que seja retirado o
+sobrestamento.
+Para sobrestar é necessário clicar no número do processo e
+selecionar o íícone
+:
+a. Quando a determinação de interrupção do trâmite do processo
+constar formalmente no próprio processo, selecione a opção
+"Somente Sobrestar", preencha o campo "Motivo" e salvar:
+b. Quando a determinação de interrupção do trâmite do processo
+constar formalmente em outro processo também existente no
+, selecione a opção “Sobrestar vinculando a outro
+processo”. O sistema abre o campo “Processo para
+Vinculação”, no qual deve ser informado o número do
+processo que tenha determinado seu sobrestamento. Ao clicar
+em
+, automaticamente preencherá o campo “Tipo”
+com o respectivo tipo de processo a ser vinculado. O campo
+“Motivo” deve ser preenchido e depois salvar:
+
+--- PÁGINA 55 ---
+Ao selecionar a opção "Processos Sobrestados" no menu principal,
+o sistema relaciona os processos da unidade que se encontram sobrestados e
+as informações relativas ao sobrestamento: usuário que efetivou o
+sobrestamento; data; motivo; e o número do processo na coluna “Vinculação”,
+caso o processo tenha sido sobrestado vinculado a outro processo:
+Para remover o sobrestamento, basta o usuário selecionar o
+processo e clicar no botão
+ou selecionar o íícone
+"Remover
+Sobrestamento" no quadro que contém a relação de processos sobrestados.
+1. Somente é possível sobrestar um processo que esteja aberto apenas na
+unidade que efetuará a operação.
+2. Não há regra para o tempo limite em que um processo deva permanecer
+sobrestado.
+3. Processos sobrestados saem da tela de "Controle de Processos". Para que
+sejam visualizados, deve ser acessado o menu "Processos Sobrestados".
+Dicas
+
+--- PÁGINA 56 ---
+5.2 Relacionar Processos
+A funcionalidade
+é utilizada para agrupar
+processos que possuam alguma ligação entre si (por exemplo, informações
+complementares), porém, autônomos.
+Caso existam processos relacionados, com o processo aberto, logo
+abaixo da árvore de documentos aparecem os tipos de processos que possuem
+relacionamentos, visíveis para todas as unidades:
+Ao clicar no tipo de processo, o sistema mostrará os números de
+processos relacionados com aquele tipo. Ao clicar em um dos números, o
+sistema abrirá o processo correspondente e o processo anterior passa a figurar
+como relacionado ao processo ora aberto. Ou seja, o relacionamento é nos dois
+sentidos.
+Para relacionar processos é necessário estar com um dos
+processos aberto e, antes, saber o número dos processos a serem relacionados.
+Na barra de menu do processo, deve-se selecionar o íícone
+:
+
+--- PÁGINA 57 ---
+Em seguida é aberta tela para informar o número do “Processo
+Destino” e, ao clicar em
+, o sistema confirma a existência do processo
+no
+e automaticamente preenche o campo “Tipo”, habilitando o botão
+.
+Ao clicar no botão, o sistema mostra um quadro com a lista de
+processos relacionados:
+Para cancelar o relacionamento, basta selecionar o íícone
+na coluna “Ações” do referido quadro.
+1. Não há hierarquia entre processos relacionados. Ao contrário da anexação,
+um processo não passa a fazer parte do outro e o vínculo pode ser desfeito
+a qualquer tempo.
+2. É possível relacionar vários processos em sequência, inserindo número
+após número.
+5.3 Anexar Processos
+A anexação de processos é uma funcionalidade que permite juntar
+de maneira permanente processos do mesmo tipo, com o mesmo interessado e
+com o mesmo objetivo, uma vez verificado que as informações deveriam ou
+podem estar agregadas em um processo único.
+Dicas
+
+--- PÁGINA 58 ---
+Como regra, o processo mais novo é anexado ao processo mais
+antigo, de modo que o mais novo passa a compor a árvore de documentos do
+mais antigo. No processo anexado será indicado o processo principal:
+Para anexar um processo, é necessário saber o número a ser
+anexado. Deve-se selecionar o processo que receberá o anexado e, ao abrir a
+tela do processo, selecionar o íícone
+:
+Na tela seguinte deverá ser preenchido o campo “Processo” com o
+número que será anexado (processo mais recente) e clicar em
+.
+Automaticamente o
+preenche o campo “Tipo” com o respectivo tipo de
+
+--- PÁGINA 59 ---
+processo a ser anexado e habilitar o botão
+. Ao clicar nesta opção,
+o
+informará que somente o Administrador do Sistema pode cancelar a
+operação:
+Após em
+a anexação é efetivada. O
+mostrará a tela
+“Anexação de Processos” com um quadro listando os processos anexados. O
+processo anexado aparecerá na árvore de documentos do processo principal:
+1. A anexação deverá ser utilizada quando houver necessidade de unificação
+permanente de processos do mesmo tipo, com o mesmo interessado e
+com o mesmo objetivo e, portanto, deverão ser tratados de forma
+conjunta. Uma vez anexado a um processo principal, o processo acessório
+deixa de ter independência, não sendo mais possível nenhuma ação
+isolada, tal como inclusão de novos documentos.
+2. Para que a anexação possa ser realizada, o processo a ser anexado deve
+estar aberto somente na unidade que efetuará a operação.
+3. Ao ser realizada a operação de anexação, os relacionamentos do processo
+anexado são mantidos. Basta clicar no íícone do processo anexado
+(na
+árvore de documentos do processo principal) e selecionar a opção “Clique
+aqui para visualizar este processo em uma nova janela”. Os
+relacionamentos serão mostrados abaixo da árvore de documentos do
+processo anexado.
+4. A operação de anexação não pode envolver processos sigilosos.
+5. Caso o processo a ser anexado tenha nível de acesso "Restrito", o processo
+principal será "contaminado" por esse nível (mesmo comportamento
+Dicas
+
+--- PÁGINA 60 ---
+quando um documento restrito é anexado a um processo com nível de
+acesso "Público").
+6. O processo a ser anexado não pode ter processos anexos a ele.
+7. Quando um processo anexado se encontra em bloco de reunião
+disponibilizado para outras unidades, deixa de ser possível a visualização
+de minutas do processo. No entanto, a informação sobre a anexação fica
+visível na tela do processo (para saber mais sobre blocos de reunião,
+consulte: Bloco de Reunião).
+
+--- PÁGINA 61 ---
+Parte VI
+Recuperando
+Informações
+
+--- PÁGINA 62 ---
+6 Recuperando Informações
+6.1 Verificará o Histórico de Modificações
+É possível acessar o registro de alterações efetuadas em um
+processo e verificará o momento e a unidade em que ocorreram. A opção
+está disponível na tela do processo, logo abaixo da árvore
+de documentos. Ao selecionar esta opção, abre-se a tela de “Histórico do
+processo”. Pode ser visualizado o histórico resumido do processo, em um
+quadro que mostra data, unidade, usuário e descrição das operações
+realizadas. Também é possível a visualização do histórico detalhado ao
+selecionar a opção “Ver histórico completo” nesta mesma tela.
+6.2 Acrescentar Informações ao Histórico
+A opção “Atualizar Andamento” é utilizada para acrescentar
+informações não registradas automaticamente pelo sistema nos andamentos
+do processo. Desta maneira, o usuário pode acrescentar informações a um
+processo sem necessitar fazer uso de um novo documento.
+a. Para atualizar o andamento do processo o usuário deverá
+selecionar o número do processo e clicar na opção
+da barra de menu do processo;
+b. Para atualizar o andamento do documento o usuário deverá
+acessar o processo e em seguida selecionar o documento que
+se pretende, e na barra de menu do documento clicar na opção
+.
+
+--- PÁGINA 63 ---
+A atualização de andamento de processo também pode ser
+realizada a partir do “Controle de Processo”. Para ir a esta tela, basta clicar no
+íícone
+na barra de ferramentas e, em seguida, selecionar o(s) processo(s) que
+se pretende(m) atualizar o andamento e clicar no íícone
+.
+A atualização de andamento ainda poderá ser realizada por meio
+da funcionalidade
+. Ao clicar na opção “Atualizar
+Andamento” o sistema abre uma tela com o campo “Descrição”, que é de livre
+preenchimento.
+É preciso ter cuidado ao preencher este campo porque, ao salvar
+as informações, não é possível a edição do registro efetuado. Neste caso,
+deverá ser feito outro registro corrigindo o anterior.
+As informações das atualizações serão visualizadas na tela do
+processo,
+, na opção “Histórico Completo”. Portanto,
+quando se tratar de informações essenciais ao entendimento processual, estas
+deverão ser inseridas na forma de um novo documento, de acordo com o que a
+formalidade processual exigir.
+
+--- PÁGINA 64 ---
+6.3 Acompanhamento Especial
+O Acompanhamento Especial permite que um processo público ou
+restrito que já tenha tramitado pela unidade permaneça sempre visível para a
+unidade, possibilitando a verificação de trâmites posteriores e atualizações
+(para saber mais sobre blocos, consulte: Blocos Internos, Bloco de Reunião e
+Assinaturas por Usuários de outras Unidades).
+Os efeitos de um Acompanhamento Especial se estendem para os
+processos relacionados. Mesmo quando o processo é concluído em todas as
+unidades, ainda será visualizado ao se clicar no link do processo no quadro de
+Acompanhamento Especial.
+Ao clicar na opção “Acompanhamento Especial” no menu
+principal, será apresentado um quadro com a relação dos processos da unidade
+que estão em acompanhamento e as informações de controle, tais como:
+usuário que marcou o acompanhamento, a data, o grupo, observação e ainda
+as ações possíveis para o acompanhamento:
+“Alterar Acompanhamento” ou
+“Excluir Acompanhamento”.
+Esta funcionalidade permite à unidade concluir um processo e
+mantê-lo em acompanhamento permanente, sem necessidade de buscas pelo
+formulário de Pesquisa. Também permite a organização por categorias de
+acompanhamento estabelecidas pela própria unidade, além do acréscimo de
+observações aos processos em acompanhamento. O Acompanhamento
+Especial categorizado somente é visível para a unidade que o criou.
+Para a inclusão, deve ser verificado se já existe grupo de
+Acompanhamento Especial com o nome pretendido.
+Caso já exista, basta adicionar o processo ao grupo de
+acompanhamento. Caso contrário, deverá ser aberto um novo grupo.
+Para abrir um novo grupo, deverá ser selecionada a opção
+"Acompanhamento Especial" no menu principal. Na tela seguinte, deve-se
+clicar no botão
+.
+
+--- PÁGINA 65 ---
+Na tela “Grupos de Acompanhamento” selecionar o botão
+.
+Será apresentada a tela “Novo Grupo de Acompanhamento”
+onde deverá ser preenchido o campo "Nome" com a denominação desejada e,
+em seguida, clicar no botão
+.
+Será apresentada nova tela com o grupo recém criado. Para
+adicionar um processo ao grupo de Acompanhamento Especial, é necessário
+clicar no número do processo e selecionar o íícone
+.
+Deve-se, então, selecionar o grupo desejado na barra de rolagem,
+escrever uma observação e, em seguida, clicar no botão
+.
+
+--- PÁGINA 66 ---
+Um processo pode ser excluído do Acompanhamento Especial por
+meio do próprio quadro "Acompanhamento Especial", selecionando o íícone
+e confirmando que deseja realizar a retirada. Também
+é possível a exclusão de processos em bloco, selecionando-se as devidas caixas
+de seleção no quadro, ao lado dos números dos processos que se deseja
+excluir, e fazendo uso do SEIbotão “Excluir”.
+6.4 Blocos Internos
+Blocos internos servem para organizar conjuntos de processos que
+possuam alguma ligação entre si. É uma organização interna somente visível
+pela unidade (para saber mais sobre blocos, consulte: Acompanhamento
+Especial, Bloco de Reunião e Assinaturas por Usuários de outras Unidades). No
+há duas maneiras de incluir processos em um bloco interno:
+a. Na tela “Controle de Processos”, pode-se incluir um ou mais
+processos, clicando-se na caixa de seleção ao lado dos números
+dos processos que serão incluídos em bloco.
+b. Na tela do processo, é possível selecionar na barra de menu do
+processo que será incluído em bloco.
+
+--- PÁGINA 67 ---
+Deve-se selecionar o íícone
+. O Sistema abrirá a tela
+“Selecionar Bloco” com um quadro que mostra todos os blocos de reunião e
+blocos internos abertos na unidade.
+Deve-se clicar no íícone
+de um do(s) bloco(s) apresentado(s) no
+quadro e no íícone
+“Escolher este Bloco”.
+Ao clicar no botão
+, os processos serão incluídos no(s)
+bloco(s) selecionado(s).
+Para se criar um novo bloco interno, é necessário selecionar a
+opção
+.
+Na tela “Selecionar Bloco”. O sistema abrirá uma tela onde deverá
+ser inserida a descrição desejada do bloco.
+
+--- PÁGINA 68 ---
+Ao salvar informações, o sistema retorna para a tela anterior.
+Basta clicar no botão
+e o(s) processo(s) será(serão) automaticamente
+inserido(s) no novo bloco:
+Para verificará os processos que fazem parte de determinado bloco,
+deve-se clicar na opção "Blocos Internos" (menu principal), selecionar o bloco
+desejado e clicar no íícone
+.
+
+--- PÁGINA 69 ---
+O
+apresentará uma tela identificando o número do bloco e
+apresentando um quadro que contém as informações dos processos
+pertencentes. Também habilitará os botões
+,
+,
+e as
+ações
+“Anotações” e
+“Retirar Processo/Documento do Bloco”.
+Para fazer anotações nas linhas correspondentes a cada processo
+pertencente ao bloco, basta incluir no campo
+a informação
+desejada.
+
+--- PÁGINA 70 ---
+1. O Acompanhamento Especial tem por fim manter um processo sempre
+disponível para consulta por usuários de uma mesma unidade. A operação
+é realizada processo a processo e as alterações no acompanhamento não
+são registradas no histórico do processo. Já, o bloco interno, embora
+também fique disponível para todos os usuários de uma unidade, permite
+a inclusão de vários processos em um único bloco.
+6.5 Métodos de Pesquisa
+É possível o modo de pesquisa livre ou estruturado.
+O sistema realiza busca em processos e documentos (gerados ou
+importados para o sistema). A pesquisa também retorna o conteúdo de
+documentos em formato PDF que tenham passado por processo de
+Reconhecimento Ótico de Caracteres (OCR). O Sistema pode buscar palavra ou
+sentença em documentos restritos. Neste caso, para as unidades em que o
+processo não tenha tramitado o
+retornará o processo e informará o
+documento em que se encontra o objeto da pesquisa, sem, no entanto,
+mostrar o conteúdo do documento (para saber mais sobre documentos que
+possam ter o conteúdo pesquisável, consulte: Orientações para Digitalização).
+Dicas
+
+--- PÁGINA 71 ---
+a. Na modalidade de pesquisa livre:
+Basta inserir o termo procurado no campo "Pesquisa", ao lado da
+identificação da unidade, e o sistema buscará todos os documentos e processos
+que possuem aquele termo:
+Se houver um único resultado possível para a pesquisa o sistema
+abrirá o processo ou documento procurado (no caso de documentos gerados
+no sistema e documentos em PDF) ou, no caso de documentos externos em um
+dos formatos aceitos, o sistema indica o documento pesquisado e abre a opção
+de download para a máquina do usuário.
+Se houver mais de um resultado possível, o sistema abrirá a tela de
+pesquisa com todos os resultados encontrados. Basta clicar no íícone
+ao lado da descrição para ter acesso ao processo ou
+documento:
+
+--- PÁGINA 72 ---
+b. Na modalidade de pesquisa estruturada:
+No
+, deve-se acessar a opção "Pesquisa" no menu principal.
+A pesquisa pode ser realizada pela barra:
+Utilizando critérios de pesquisa:
+ Palavras, Siglas, Expressões ou Números: busca ocorrências de
+uma determinada palavra, sigla, expressão (deve ser informada
+entre aspas duplas) ou número:
+ Conector (E): busca por registros que contenham todas as
+palavras e expressões:
+ Conector (OU): busca por registros que contenham pelo menos
+uma das palavras ou expressões:
+ Conector (NÃO): busca Documentos que contenham a primeira,
+mas não a segunda palavra ou expressão, isto é, exclui os
+documentos que contenham a palavra ou expressão seguinte
+ao íconector (NÃO):
+
+--- PÁGINA 73 ---
+Ainda, é possível utilizar os campos disponíveis no formulário de
+pesquisa. O usuário pode optar em pesquisar processos, documentos gerados,
+documentos externos e ainda determinar um período específico:
+Como
+exemplo,
+foi
+preenchido
+o
+campo
+“Especificação/Descrição:” com a sentença “Demonstração para treinamento”
+(especificação do processo nº 19957.000052/2014-19):
+O sistema recupera todos os processos não sigilosos que tenham a
+expressão procurada no campo especificação, inclusive processos de outras
+unidades (mesmo os processos que nunca tenham passado pela unidade que
+efetua a pesquisa).
+
+--- PÁGINA 74 ---
+A funcionalidade de pesquisa do
+pode realizar busca no
+conteúdo de documentos gerados no sistema, nos documentos externos
+digitalizados com processamento de OCR, nos documentos externos de texto
+(planilhas, txt, html, doc, docx, xls, pdf, etc.), além da pesquisa em dados
+cadastrais de processos e documentos.
+1. A pesquisa não recupera dados de processos e documentos sigilosos.
+2. A pesquisa recupera mesmo os processos concluídos em todas as unidades.
+3. As informações no campo “Observações desta unidade” (tela de cadastro
+do processo) só poderão ser recuperadas pela unidade que as inseriu.
+6.6 Medições de Desempenho
+A opção “Estatística”, no menu principal, oferece a possibilidade
+de visualizar Estatísticas da Unidade e de Desempenho de Processos. Os
+resultados são gerados em tempo real, sempre atualizados, com quadros e
+gráficos interativos:
+Dicas
+
+--- PÁGINA 75 ---
+Ao se escolher o submenu “Unidade”, será apresentada a tela
+“Estatísticas da Unidade”, em que o usuário deverá informar o “Período” do
+qual deseja obter dados estatísticos sobre os processos que tramitaram na
+unidade:
+Uma vez estabelecido o período, o usuário deverá clicar em
+. O
+apresentará os seguintes quadros e gráficos:
+a. Processos gerados no período (por tipo):
+
+--- PÁGINA 76 ---
+b. Processos com tramitação (em trâmite) no período:
+c. Processos com andamento fechado (concluído) na unidade ao
+final do período:
+
+--- PÁGINA 77 ---
+d. Processos com andamento aberto (em trâmite) na unidade ao
+final do período:
+e. Tempo médio de tramitação no período:
+
+--- PÁGINA 78 ---
+f. Documentos gerados no período (por tipo):
+g. Documentos gerados no período:
+Ao clicar nas quantidades exibidas nas tabelas ou nas colunas dos
+gráficos, o sistema abre quadros com informações detalhadas, sobre o
+processo, órgão, unidade, tipo, mês e ano.
+
+--- PÁGINA 79 ---
+1. A funcionalidade “Estatísticas da Unidade” considera como documentos
+gerados no período, tanto minutas como documentos assinados.
+Ao escolher o submenu “Desempenho de Processos”, será
+apresentada a tela “Estatísticas de Desempenho de Processos”, em que o
+usuário deverá informar o “Órgão”, o “Tipo de Processo” e o “Período” do qual
+pretende obter os dados. Poderão ser contabilizados todos os processos ou
+somente
+os
+concluídos
+(neste
+caso,
+assinalar
+a
+opção
+) e clicar no botão
+.
+Como resultado, será apresentada uma tabela com os tempos
+médios de trâmite dos tipos de processo no Órgão.
+Dicas
+
+--- PÁGINA 80 ---
+Ao clicar nos tempos ou nas colunas do gráfico, o sistema
+apresenta quadros com mais informações.
+Ao se clicar no valor apresentado na
+coluna
+“Tempo
+Médio”,
+será
+apresentado um novo quadro com
+detalhes de todos os processos
+contabilizados na média:
+Ao se clicar no valor apresentado na
+coluna “Tempo” de cada processo,
+será apresentado um novo quadro
+com tempo de trâmite do processo
+em cada unidade:
+
+--- PÁGINA 81 ---
+Por fim, clicando-se em “Detalhar por Unidade” acima do quadro
+que lista os detalhes de todos os processos contabilizados no tempo médio,
+tem-se o tempo médio de tramitação daquele tipo de processo pelas Unidades
+em que ficou aberto:
+
+--- PÁGINA 82 ---
+Parte VII
+Operações
+Básicas com
+Documentos
+
+--- PÁGINA 83 ---
+7 Operações Básicas com Documentos
+7.1 Incluir Documentos
+O sistema não permite o trâmite de documentos avulsos. Todo
+documento deverá estar contido em um processo criado previamente. Há duas
+modalidades possíveis de documentos em um processo do
+. A primeira é o
+documento gerado a partir do editor do próprio sistema (desejável). A segunda
+alternativa é o documento externo: documentos digitalizados ou nos vários
+formatos que possam ser importados para o sistema.
+Assim como ocorre ao iniciar um processo, os documentos
+deverão ser identificados com um tipo previamente registrado no sistema. Para
+documentos gerados este enquadramento ocorrerá durante a escolha do tipo
+do documento. Para documentos externos o enquadramento ocorrerá durante
+o cadastro de dados do documento. A inclusão de documentos se dá por meio
+do íícone
+na tela do processo:
+Na tela “Gerar Documento” será escolhido o tipo de documento
+desejado, sendo que tipos mais utilizados ficam em destaque assim que a tela é
+aberta. Para visualizar outros tipos, selecione o íícone
+ao lado
+de "Escolha o Tipo do Documento". Para voltar à lista anterior, basta
+selecionar o íícone
+.
+
+--- PÁGINA 84 ---
+Após a operação de inclusão, o documento é inserido
+automaticamente na árvore de documentos do processo e fica disponível para
+edição ou assinatura.
+Sempre que um documento for clicado, o
+irá tarjá-lo em azul e
+a visualização de seu conteúdo ficaráá disponível do lado direito da tela.
+Também será apresentada uma nova barra de menu com todas as ações
+possíveis para documentos.
+A cada vez que um documento for incluído ou quando um
+documento (interno ou externo) for assinado, ficaráá visível um alerta
+para
+todas as unidades em que o processo estiver aberto, exceto para a unidade
+geradora do documento. O íícone fica visível até que o primeiro acesso ao
+processo seja realizado. A ocorrência do acesso em uma das unidades não
+impede que o alerta continue visível para as demais.
+
+--- PÁGINA 85 ---
+1. O sistema permite a alteração dos dados de cadastro de documentos para
+todas as unidades em que o processo esteja aberto, ainda que o
+documento já tenha sido assinado digitalmente.
+2. O sistema permite, inclusive, a troca do tipo do documento por qualquer
+unidade em que o processo esteja aberto.
+3. O sistema também permite que possam ser enviados e-mails que
+comporão a árvore de documentos do processo. Não é possível cancelar ou
+excluir estes e-mails.
+4. A inclusão de um documento com restrição do nível de acesso em um
+processo com menor nível de restrição faz com que todo o processo receba
+o nível de restrição do documento inserido (para saber mais sobre
+processo e documentos com níveis de restrição de acesso, consulte:
+Processos com Restrição de Acesso).
+7.2 Documentos Gerados no Sistema
+Para a inclusão de um documento gerado no sistema, deve ser
+selecionado o tipo do documento a partir da lista apresentada na tela "Gerar
+Documento".
+Dicas
+
+--- PÁGINA 86 ---
+O próximo passo é o preenchimento dos dados de cadastro do
+documento. Estão disponíveis os campos: seleção do “Texto inicial”,
+“Descrição” (opcional), “Interessados” (opcional), “Destinatários” (opcional),
+“Observações desta unidade” (opcional) e seleção do “Nível de Acesso”. O
+sistema permite que esses dados sejam alterados posteriormente por meio do
+íícone
+(tela do documento). Deve ser selecionado o nível
+de acesso e salvar informações.
+Quando o documento é criado, fica visível na árvore de
+documentos do processo:
+
+--- PÁGINA 87 ---
+1. Embora o sistema não exija o preenchimento dos campos “Descrição”,
+“Interessados” e “Observações desta unidade”, estes campos são
+importantes para a pesquisa de documentos no sistema, sendo desejável a
+adoção de padrões de preenchimento pelas unidades.
+2. Documentos gerados e não assinados são considerados minutas. Estão
+abertos para edição por qualquer usuário da unidade geradora. Também
+só podem ser visualizados por usuários da unidade geradora do
+documento, ainda que o processo seja enviado para outra unidade.
+3. Só podem ser efetuadas modificações no cadastro do documento, se o
+processo estiver aberto para a unidade. As modificações são feitas por
+meio do íícone:
+.
+4. Quando o processo estiver em outra unidade, o íícone muda para
+.
+5. Cada “Tipo de Documento” tem uma formatação que lhe é própria,
+portanto, atenção na escolha do tipo de documento que pretende
+produzir.
+6. Em regra, os documentos assumirão a temporalidade dos processos em
+que forem inseridos. No entanto, pode haver casos em que um documento
+de maior temporalidade seja inserido em um processo de menor
+temporalidade. Nestes casos, o processo deverá assumir a temporalidade
+do documento (para saber mais sobre temporalidade, consulte:
+Arquivamento e Contagem de Temporalidade).
+Dicas
+
+--- PÁGINA 88 ---
+7.3 Editar Documentos
+Como regra geral é permitida a edição somente para os usuários
+da unidade geradora, mesmo que o processo esteja aberto para outras
+unidades no momento da inclusão do documento.
+Ainda, devem ser cumpridos os seguintes requisitos:
+a. Documentos gerados no editor de texto do
+;
+b. Caso sejam produzidos por outra unidade, estarem disponíveis
+no bloco de assinatura da unidade do usuário que deseja editá-
+los;
+c. Não terem sido visualizado por usuário de unidades distintas
+da geradora do documento. Os documentos disponibilizados
+em blocos de assinatura poderão ser editados desde que
+visualizados apenas pelas unidades incluídas nos blocos.
+Para a edição, deve-se clicar no íícone:
+disponível na
+barra de menu da tela do documento.
+O sistema abrirá uma tela em que poderão ser editados os textos
+apresentados nas sessões de cor branca. O
+permite, durante a edição, a
+inclusão de links e a importação de textos e formatos do Word.
+
+--- PÁGINA 89 ---
+Após realizar as alterações o usuário deverá clicar em “Salvar”.
+Excepcionalmente, documento já assinado eletronicamente pode
+ser editado. Basta que, enquanto a caneta ainda esteja na cor amarela
+,
+alguém da mesma unidade acesse o documento, realize sua edição e o assine
+novamente. Quando o documento é acessado por alguém de outra unidade, a
+caneta muda da cor amarela
+para preta
+e as edições não são mais
+permitidas.
+Utilizado o navegador Firefox (recomendado!), é possível utilizar o
+complemento “Verificador Ortográfico para português do Brasil...”. Neste caso,
+para acessar o corretor ortográfico é necessário, dentro do editor e com o
+cursor em cima da palavra, manter pressionada a tecla CTRL e clicar no botão
+direito do mouse, escolhendo então a opção “Verificará Ortografia”.
+
+--- PÁGINA 90 ---
+Após o primeiro clique em “Verificará ortografia”, abrir novamente
+o menu (CTRL + botão direito do mouse), e a opção “Idioma” estará disponível.
+Basta selecionar esta opção e em seguida selecionar “Português (Brasil)”.
+Para obter sugestões de palavras, posicionar o cursor sobre a
+palavra grifada pelo editor, abrir o menu (CTRL + botão direito do mouse) e
+escolher dentre as sugestões apresentadas.
+1. A Edição de conteúdos de documentos gerados no sistema não se
+confunde com alteração dos dados de cadastro de documentos. No
+primeiro caso, somente é permitida a edição por usuários da unidade
+geradora de um documento que ainda não recebeu assinatura eletrônica
+ou que, embora assinado, não tenha sido acessado por usuários de outras
+unidades. No segundo caso, a edição é permitida por usuários das unidades
+Dicas
+
+--- PÁGINA 91 ---
+onde o processo estiver aberto, ainda que o documento esteja assinado
+eletronicamente.
+2. Apesar do sistema dar suporte ao Internet Explorer (8 ou superior), é
+recomendado o uso dos navegadores Firefox (4 ou superior) ou Chrome.
+Também é recomendado manter a versão do navegador atualizada.
+3. Pode acontecer da janela do editor de texto do
+ser bloqueada pelo
+Navegador (bloqueio de pop-ups). Caso isso ocorra, o usuário deve
+desabilitar o bloqueio de pop-ups do navegador.
+7.3.1 Incluir Imagens
+O editor do sistema permite a inclusão de imagens no corpo de
+documentos, por meio do íícone
+da barra de ferramentas:
+Deverá ser posicionado o cursor no local em que se pretende
+inserir a imagem e clicar no íícone
+“Imagem”.
+
+--- PÁGINA 92 ---
+Será aberta uma janela informando os formatos de imagem
+permitidos para upload. Os formatos deverão ser previamente cadastrados
+pelo Administrador do Sistema para que fique visível o íícone “Imagem”.
+Ao selecionar um arquivo com formato permitido, basta clicar em
+“OK” e será possível inserir a imagem no local desejado.
+
+--- PÁGINA 93 ---
+7.3.2 Referenciar Documentos ou Processos
+A operação de referência a documentos ou a outros processos
+pode ser simplificada por meio da inserção de um link do documento ou do
+processo (a ser referenciado) no corpo do documento em edição. Isto elimina a
+necessidade de busca do documento ou do processo no sistema.
+Para inserir um link, é necessário selecionar um documento
+interno de um processo do
+, clicar no íícone
+. Deve ser
+identificado o espaço onde será inserido o link e, então, deve ser selecionado o
+íícone
+.
+
+--- PÁGINA 94 ---
+O sistema abrirá uma janela em que o campo protocolo deverá ser
+preenchido com o número
+(aparece entre parênteses ao lado da
+identificação do documento a ser referenciado) na árvore do processo. Salvar
+Informações.
+
+--- PÁGINA 95 ---
+Para referenciar outros processos, basta preencher o campo
+protocolo com o número do processo a ser referenciado e clicar em salvar. Ao
+clicar novamente no documento (na árvore de documentos), o link estará ativo.
+1. O link permitirá que o usuário tenha acesso ao documento referenciado,
+ainda que seja um documento restrito.
+2. Não será possível criar links para documentos contidos em processos
+sigilosos, com exceção de referências para documentos do próprio
+processo sigiloso (auto referência).
+7.4 Versões
+O sistema permite edições sucessivas de um mesmo documento. A
+cada vez que uma edição for salva, o sistema considera que foi gerada nova
+versão do documento. É possível controlar as versões de um documento,
+verificará os usuários responsáveis pelas modificações e retomar uma versão
+anterior por meio do íícone
+.
+Dicas
+
+--- PÁGINA 96 ---
+O sistema abrirá um quadro contendo todas as versões de um
+documento:
+É possível visualizar uma das versões anteriores do documento por
+meio do íícone
+, além de poder reverter o documento para uma
+versão anterior por meio do íícone
+.
+7.5 Textos Padrão
+Um texto padrão é um texto que seja recorrente e que possa ser
+utilizado como um conteúdo padrão para documentos e e-mails gerados no
+sistema. Cada unidade deverá produzir seus próprios textos padrão.
+Para a inclusão de um texto padrão é necessário selecionar a
+opção “Textos Padrão” no menu principal. O sistema abrirá a tela “Textos
+Padrão da Unidade”. Deve ser selecionada a opção “Novo”:
+
+--- PÁGINA 97 ---
+Os campos a serem preenchidos são: “Nome”, “Descrição” e
+“Conteúdo”:
+Ao salvar as informações, o sistema abre uma tela mostrando a
+inclusão do novo texto padrão em um quadro com a relação de textos da
+unidade:
+Qualquer usuário da unidade pode
+“Alterar”,
+“Consultar” e
+“Excluir” um texto padrão da unidade. Basta selecionar o devido íícone na
+coluna “Ações”.
+Uma vez criado, o texto padrão passa a ficará disponível para ser
+adicionado durante a criação de um documento ou um e-mail gerado no
+sistema. Ao selecionar a opção “Texto Padrão”, dentro de “Texto Inicial”, o
+
+--- PÁGINA 98 ---
+sistema disponibiliza uma barra de rolagem onde pode ser selecionada a opção
+com o nome dado ao texto padrão:
+A mesma barra de rolagem também é mostrada como opção no
+campo "Mensagem" na tela “Enviar Correspondência Eletrônica”.
+7.6 Modelos de Documentos
+Modelos de documento são documentos inteiros que, pela
+necessidade de constante repetição, o sistema permite que sejam salvos para
+reuso. O
+pode salvar modelos de documentos se já houver um grupo onde
+categorizá-los.
+Para criar um grupo é necessário selecionar a opção “Modelos” no
+menu principal da tela “Controle de Processos”. O sistema abrirá a tela
+“Modelos Favoritos”. Ao clicar na opção “Grupos”, o sistema mostrará a tela
+“Grupo de Modelos”, com um quadro que contém a relação de grupos da
+unidade.
+Na coluna “Ações” do quadro, é possível excluir ou editar os
+grupos existentes. Ao clicar na opção “Novo”, é possível criar um novo grupo.
+
+--- PÁGINA 99 ---
+Basta preencher o nome desejado no campo específico e salvar:
+Para incluir um documento como modelo, basta clicar no número
+do processo de onde se deseja salvá-lo, clicar no documento desejado (na
+árvore de documentos), selecionar o íícone
+.
+O sistema abrirá a tela “Novo Modelo Favorito”. Deverá ser
+selecionado o grupo na barra de rolagem do campo “Grupo de Modelo”.
+Também deverá ser preenchido o campo descrição e as informações deverão
+ser salvas.
+
+--- PÁGINA 100 ---
+Ainda, caso seja necessário alterar o grupo do modelo ou a
+descrição, basta repetir o mesmo procedimento anterior (utilizando o mesmo
+documento modelo). Desta vez, o sistema abrirá a tela “Alterar Modelo
+Favorito” onde será possível fazer as modificações e salvar informações.
+Para criar um documento a partir de um modelo já existente,
+deverá ser selecionada a opção “Selecionar nos Favoritos”. O sistema
+recuperará as informações dos grupos de modelos criados na unidade:
+Basta selecionar o modelo desejado por meio do íícone
+na coluna “Ações” do quadro da “Lista de Modelos”.
+
+--- PÁGINA 101 ---
+Após o preenchimento dos campos da tela “Gerar Documento” e
+salvar informações, o modelo será inserido.
+Outra forma de utilizar um documento como modelo no
+é a
+seguinte: na tela “Gerar Documento”, selecionar a opção “Documento
+Modelo”.
+O sistema abre um campo que deverá ser preenchido com o
+número do documento que se deseja copiar (número
+- aparece entre
+parênteses ao lado do documento na árvore).
+
+--- PÁGINA 102 ---
+Ao confirmar os dados, o documento copiado aparecerá na arvore
+de documentos com novo número e sem assinatura. Este procedimento não
+salva o documento copiado em grupo de modelos favoritos.
+1. Também é possível usar e salvar modelos de outras unidades, mesmo que
+o processo não esteja aberto para a unidade que efetua a operação. Basta
+ter acesso ao número
+do documento que se deseja utilizar como
+modelo.
+7.7 Publicar Documentos
+A funcionalidade de publicação serve para divulgar determinado
+documento em um veículo de publicação, interno ou externo. As publicações
+em veículos externos são realizadas por meio de webservices. Somente
+documentos gerados no sistema
+podem ser publicados, caso exista um
+veículo associado ao tipo de documento.
+Ao incluir em um processo um tipo de documento cadastrado com
+veículo de publicação associado, o íícone
+será visualizado na
+barra de menus do documento logo depois que for assinado.
+Ao selecionar o íícone, o sistema abre uma tela que exibe alguns
+campos preenchidos de forma automática: “Documento” (número de
+protocolo do documento), “Tipo” (tipo do documento), “Assinantes”
+(assinaturas que constam no documento) e “Disponibilização” (data de
+Dicas
+
+--- PÁGINA 103 ---
+disponibilização do documento no veículo). O campo “Motivo” define se a ação
+é de Publicação original ou, no caso de “Publicação Relacionada”, se é uma
+“Retificação”, “Republicação” ou “Apostilamento”. O campo “Veículo” possui
+barra de rolagem onde pode ser selecionado um dos veículos de publicação
+permitidos, configurados no cadastro do tipo de documento. No campo
+“Resumo”, que é opcional, pode ser preenchido um texto informativo sobre o
+documento:
+Processos que tenham tido publicação de documento efetivada
+recebem uma notificação na tela “Controle de Processo” (
+), para que as
+unidades nas quais esteja aberto acessem o documento publicado:
+Enquanto a publicação do documento não for confirmada, é
+possível alterar ou cancelar o agendamento. Após a confirmação da publicação,
+se for necessário efetuar uma Retificação, Republicação ou Apostilamento,
+então será preciso acionar o botão “Gerar Publicação Relacionada” (
+) sobre
+o documento.
+Ao gerar uma Publicação Relacionada, todo o documento é
+clonado (inclusive com a mesma numeração), sendo possível alterar o
+conteúdo e realizar um novo agendamento. Além disso, no resultado da
+pesquisa de publicações é disponibilizada uma ação que permite visualizar
+
+--- PÁGINA 104 ---
+todas as publicações relacionadas de um mesmo documento. Para gerar uma
+publicação relacionada é necessário utilizar o íícone
+sobre o documento:
+Após a confirmação da publicação, o documento estará acessível
+na tela de “Publicações Eletrônicas” do
+(se for veículo Interno ou veículo
+Externo com configuração para também publicar automaticamente no veículo
+Interno).
+7.8 Documentos Externos
+Um documento externo é um documento não produzido pelo
+editor do próprio sistema. É possível configurar o sistema para somente aceitar
+formatos de arquivo específicos, como de vídeos, sons, imagens, apresentações
+e planilhas. Porém, o formato mais indicado é o PDF com OCR, por ser
+inviolável, visualizado diretamente no sistema (não precisa fazer download) e
+viabilizar a pesquisa integral no corpo do documento.
+
+--- PÁGINA 105 ---
+Para incluir um documento externo, é necessário selecionar tipo
+de documento "Externo" (sempre é a primeira opção da lista), a partir da lista
+apresentada na tela “Gerar Documento”:
+O sistema abre a tela “Registrar Documento Externo” onde estão
+disponíveis os campos: “Tipo do Documento”, “Data do Documento”,
+“Número/nome na árvore” (opcional), “Tipo de Conferência (para documentos
+digitalizados)” (opcional), “Remetente” (opcional), “Interessados” (opcional),
+“Observações desta unidade” (opcional), seleção do “Nível de Acesso” e
+“Anexar Arquivo”:
+
+--- PÁGINA 106 ---
+O campo “Data do Documento” deve ser preenchido com a data
+de emissão do documento.
+O campo “Tipo do Documento” representa um combo onde deve
+ser selecionada uma das opções de tipos que foram previamente cadastrados
+no sistema. Um documento externo deve ser enquadrado em um dos nomes
+desta lista por questões de gestão documental e temporalidade.
+O campo “Número/Nome na Árvore” permite a inclusão de 50
+caracteres. As informações inseridas neste campo identificaráão o documento
+na árvore do processo. Ao gerar o documento externo, o sistema combina o
+tipo do documento escolhido
+com o número/nome preenchido
+:
+O campo “Tipo de Conferência” será preenchido em casos de
+documentos em suporte papel digitalizados:
+
+--- PÁGINA 107 ---
+Deverá ser selecionado o nível de acesso do documento, fazer o
+upload do arquivo e confirmar os dados:
+Para cada documento externo é possível anexar somente um
+arquivo.
+O
+permite realizar a substituição de um arquivo importado
+para o sistema como documento externo enquanto não houver acesso ao
+processo por usuário de unidade diferente da que efetuou a operação. Basta
+acessar a tela “Alterar Registro de Documento Externo” por meio do íícone
+, clicar no íícone
+na “Lista de
+Anexos”, confirmar dados, fazer o upload do arquivo substituto e clicar no
+botão “Confirmar Dados”:
+O campo “Reabrir processo nas unidades” estará disponível para
+as unidades de protocolo e apenas para processos de outras unidades (se o
+processo já tramitou pela unidade de protocolo o campo não aparecerá). Este
+campo permite reabrir o processo em unidades cuja tramitação já esteja
+
+--- PÁGINA 108 ---
+concluída. Os processos serão reabertos nas unidades selecionadas, ficando no
+controle de Processos com a cor vermelha, acrescidos do íícone de exclamação.
+7.8.1 Orientações para Digitalização
+Com o fim de permitir que documentos em formato PDF possam
+ter o conteúdo pesquisável ao serem inseridos no sistema e, também, para
+garantir melhor desempenho do
+ao longo do tempo, é importante que o
+processo de digitalização siga certos parâmetros, como por exemplo:
+a. Cor: monocromático;
+b. Resolução: 300 dpi;
+c. Opção de reconhecimento de texto (OCR): ativada.
+Há algumas configurações que podem não ser reproduzidas como
+no documento original, tais como fonte e tamanho dos caracteres; espaço
+entre os caracteres e entre as linhas; caracteres sublinhados, em negrito ou
+itálico; sobrescrito/subscrito. (para saber mais sobre a funcionalidade de
+pesquisa, consulte: Métodos de Pesquisa).
+A qualidade de conversão em OCR depende da qualidade do
+documento original e dos parâmetros de digitalização. Não são recomendados
+para o reconhecimento de texto os documentos com layout complexo,
+constituídos por diagramas, tabelas e textos (como folhetos, revistas e jornais);
+documentos contendo tabelas sem linhas de borda, tabelas com formatos de
+células complexas; tabelas complexas com subtabelas, diagramas, gráficos;
+fotografias, textos na vertical; documentos de layout complexo que contém
+textos misturados com diagramas ou ilustrações; documentos que contém
+fotografias ou padrões configurados como plano de fundo; documentos com
+texto de cor clara em fundo escuro.
+Há alguns tipos de documentos que podem não ser reconhecidos
+corretamente no processamento do OCR como, por exemplo, documentos que
+possuem caracteres manuscritos; documentos com caracteres pequenos
+(menores que 10 pontos); documentos desalinhados; documentos escritos em
+idiomas diferentes do especificado; documentos com caracteres em fundo
+colorido não uniforme, tais como caracteres sombreados; documentos com
+muitos caracteres decorados, tais como caracteres com relevo ou contorno;
+documentos com caracteres em fundo padronizado, tais como caracteres
+sobrepostos em ilustrações e gráficos; documentos com muitos caracteres em
+contato com sublinhas ou bordas.
+
+--- PÁGINA 109 ---
+Os documentos impressos em fontes muito pequenas devem ser
+digitalizados com resoluções maiores e o brilho deve ser ajustado
+adequadamente:
+(Fonte: Guia do Usuário do ABBYY® FineReader 11)
+(Fonte: Guia do Usuário do ABBYY® FineReader 11)
+1. Embora o sistema não exija o preenchimento dos campos “Interessados” e
+“Observações desta unidade”, estes campos são importantes para a
+pesquisa de documentos no sistema, sendo desejável a adoção de padrões
+de preenchimento pelas unidades (para saber mais sobre a funcionalidade
+de pesquisa, consulte: Métodos de Pesquisa).
+2. Ao visualizar documentos externos o sistema oferece a opção de abrir
+documentos em formato de imagem e PDF no próprio ambiente do
+.
+Para os outros formatos o sistema disponibiliza o download para a
+máquina do usuário.
+3. Podem ser feitas modificações no cadastro do documento pelas unidades
+em que o processo esteja aberto. Estas unidades visualizarão o íícone
+.
+4. As unidades em que o processo não estiver aberto visualizarão o íícone
+.
+Dicas
+
+--- PÁGINA 110 ---
+7.9 Excluir Documentos
+É possível excluir documentos externos e documentos gerados no
+sistema que sejam desnecessários ao processo, clicando no íícone
+.
+Esta operação tem por fim eliminar documentos que ainda não se estabilizaram
+como oficiais e, portanto, não afetam direitos e/ou obrigações. Ainda assim, o
+sistema efetua o registro de documentos excluídos e o histórico da operação
+fica disponível na consulta ao andamento do processo.
+Em regra, o íícone
+ficaráá visível apenas quando o
+procedimento de exclusão for permitido. A exclusão de documentos se
+diferencia da exclusão de processos porque um processo pode estar aberto
+para várias unidades no momento da criação de um documento. Por isso, a
+exclusão obedece algumas regras:
+a. Documento gerado e não assinado pode ser excluído pela
+unidade elaboradora. Documento que ainda não foi assinado é
+considerado minuta e pode ser excluído, ainda que tenha sido
+incluído em bloco de reunião e, assim, visualizado por outras
+unidades;
+b. Documento gerado assinado e ainda com a caneta em amarelo
+pode ser excluído pela unidade elaboradora. A caneta de
+indicação de assinatura fica em amarelo até que o documento
+tenha seu primeiro acesso por usuário de outra unidade ou
+quando o processo é enviado para outra unidade.
+
+--- PÁGINA 111 ---
+c. Documento externo assinado e ainda com a caneta em
+amarelo pode ser excluído pela unidade que o incluiu no
+processo.
+d. Documento externo não assinado pode ser excluído pela
+unidade que o incluiu no processo, mesmo quando o processo
+já estiver aberto para múltiplas unidades ou mesmo se o
+documento já tiver sido acessado por usuários de outras
+unidades, até o envio do processo para outra unidade. Após o
+envio do processo para outra unidade, mesmo exibindo o íícone
+no acesso ao documento, o sistema não permite sua
+exclusão, avisando que o “Documento externo já tramitou”.
+1. Um documento excluído deixa de aparecer na árvore de documentos do
+processo.
+2. A exclusão de um documento não anula o registro do número sequencial
+referente ao tipo de documento. Por exemplo, caso tenha sido criado e,
+logo depois, excluído um memorando de número 1, o próximo memorando
+criado no sistema possuirá o número subsequente, 2.
+7.10 Cancelar Documento
+O íícone
+deve ser utilizado em documento já
+estabilizado como oficial e que, por alguma determinação oficial, dever ser
+cancelado. Por exemplo, caso tenha sido verificada sua nulidade.
+Esta é a funcionalidade do
+que opera o tradicional instituto do
+“Desentranhamento” e, assim, exige ato formal de autoridade competente
+determinando o cancelamento do documento.
+Para efetuar a operação, basta clicar no documento e depois no
+íícone
+:
+Dicas
+
+--- PÁGINA 112 ---
+O sistema abrirá uma tela onde deverá ser informado o motivo do
+cancelamento.
+Com o cancelamento, o documento permanece indicado na árvore
+de documentos do processo, porém, com íícone próprio de cancelado, sem ser
+mais possível acessar seu conteúdo:
+1. Documento assinado, mesmo que possua assinaturas de usuários de várias
+unidades, somente pode ser cancelado pela unidade geradora, ainda que o
+processo esteja aberto em várias unidades ao mesmo tempo.
+2. Assim, o íícone
+somente ficaráá visível para a unidade
+geradora do documento.
+Dicas
+
+--- PÁGINA 113 ---
+Parte VIII
+Assinaturas
+
+--- PÁGINA 114 ---
+8 Assinaturas
+8.1 Restrição à Visualização de Minutas
+Enquanto não for assinado eletronicamente, um documento
+produzido no sistema é considerado uma minuta e só pode ser visualizado por
+usuários da unidade elaboradora, ainda que o processo esteja aberto para
+outras unidades. Enquanto o documento estiver como minuta, é possível sua
+visualização por usuários de outras unidades por meio de Bloco de Reunião
+(apenas visualização, não permite alterar nem assinar a minuta). O uso do
+Bloco de Assinatura permite que usuário de unidade diferente da elaboradora
+do documento possa visualizar, editar e assinar o documento.
+8.2 Bloco de Reunião
+O Bloco de Reunião possibilita que uma unidade disponibilize
+processos para conhecimento de outras unidades, sem a necessidade de que
+estas unidades tenham uma atuação formal sobre o processo, para serem
+discutidos em reuniões ou decisão colegiada. É uma forma de visualizar
+minutas de documentos em unidades diferentes da geradora (para saber mais
+sobre blocos, consulte: Acompanhamento Especial, Blocos Internos e
+Assinaturas por Usuários de outras Unidades).
+Os blocos de reunião permitem a inclusão de um ou mais
+processos. Na tela Controle de Processos, basta clicar na caixa de seleção ao
+lado do número dos processos a serem incluído no bloco:
+Deve-se clicar no íícone
+. O sistema abrirá a tela
+“Selecionar Bloco” com um quadro que mostra todos os blocos de reunião e
+blocos internos abertos na unidade. Note-se que os blocos de reunião
+
+--- PÁGINA 115 ---
+recebidos de outras unidades e os blocos disponibilizados não aparecem nesta
+tela. Ao selecionar uma ou mais opções disponíveis e clicar no botão
+,
+os processos serão incluídos no(s) bloco(s) selecionado(s):
+Para se criar um novo bloco de reunião, é necessário selecionar a
+opção “Novo Bloco de Reunião” na tela acima. Será aberta a tela a seguir, onde
+deverá ser inserida a descrição desejada para o bloco de reunião e as unidades
+para disponibilização:
+
+--- PÁGINA 116 ---
+Ao salvar informações, o sistema retorna para a tela anterior.
+Basta clicar em
+e os processos selecionados serão automaticamente
+inseridos no novo bloco:
+É possível incluir anotações nas linhas do quadro, correspondentes
+a cada processo pertencente ao bloco. É só clicar no íícone
+, da
+coluna “Ações”, inserir a informação desejada e salvar:
+Para que as minutas de um ou mais processos possam ser
+visualizadas por usuários de outras unidades é necessário disponibilizar o
+bloco.
+No menu principal, deverá ser selecionada a opção “Blocos de
+Reunião”. O sistema abre uma tela com a relação de todos os blocos de
+reunião da unidade: abertos, disponibilizados a outras áreas e também os
+recebidos.
+
+--- PÁGINA 117 ---
+Deverá ser selecionado o íícone
+na coluna
+“Ações”. Um bloco disponibilizado não deverá ser editado ou receber outros
+processos até que as unidades de destino devolvam o bloco:
+No entanto, é possível cancelar a disponibilização de um bloco de
+reuniões fazendo uso do SEIíícone
+:
+
+--- PÁGINA 118 ---
+No exemplo a seguir, uma unidade disponibiliza um bloco reunião
+para outra unidade. Ainda que o processo não esteja aberto para a unidade de
+destino do bloco, todas as minutas produzidas pela unidade disponibilizadora
+ficaráão visíveis para a destinatária do bloco. Já, as minutas produzidas em
+outras unidades, que não estejam envolvidas na operação, permanecerão
+indisponíveis.
+1. O bloco de reunião não gera o envio do processo. Significa que não
+aparecerá a informação de que o processo está aberto para as unidades as
+quais o bloco foi disponibilizado (na tela do processo).
+2. Quando um processo de um bloco de reunião é anexado a outro processo,
+as minutas deixam de ser visualizadas.
+8.3 Assinatura de Documento Interno
+É possível a assinatura digital no sistema, fazendo uso de login e
+senha ou token. Para assinar deve-se clicar no documento na árvore do
+processo e selecionar o íícone
+. Um documento pode ter tantas
+assinaturas quanto forem necessárias.
+Dicas
+
+--- PÁGINA 119 ---
+A assinatura será feita selecionando-se a função na barra de
+rolagem do campo "Caórgão/Função" e preenchendo-se o campo "senha" ou via
+token. A assinatura digital será exibida na parte final do documento. Também é
+possível obter informações sobre as assinaturas clicando no íícone da caneta:
+Pode acontecer de um usuário, por força do exercício de uma
+função, necessitar assinar documentos em sua unidade, atribuindo ora seu
+
+--- PÁGINA 120 ---
+caórgão, ora sua função. Neste caso, bastará fazer a devida seleção na barra de
+rolagem do campo “Caórgão/ Função” e assinar o documento.
+1. Quando se tratar de documento preparatório, sugere-se que este seja
+assinado somente quando aprovado em sua totalidade e por todas as
+autoridades competentes. E seja assinado primeiro pela instância superior,
+pois, em regra, ficaráá visível para qualquer usuário após a primeira
+assinatura.
+2. Quando for necessário efetuar mais de uma assinatura em um documento
+produzido no sistema por usuários da mesma unidade, basta atribuir o
+processo ao usuário que realizará a assinatura.
+3. Um documento gerado no sistema poderá receber assinatura digital de
+usuários de unidade diferente da elaboradora. Esta operação é realizada
+por meio da inclusão de documentos em bloco de assinatura (para saber
+mais sobre blocos de assinatura, consulte: Assinaturas por Usuários de
+outras Unidades).
+8.4 Assinatura de Documento Externo
+Para os documentos externos é disponibilizada a opção “Assinar
+Documento”. Como regra geral, documentos externos são assinados somente
+por usuários da unidade que o incluiu no processo, podendo haver mais de
+Dicas
+
+--- PÁGINA 121 ---
+uma assinatura. Documentos externos não podem ser inseridos em blocos de
+assinatura e também não podem ser liberados para assinatura por usuário
+externo.
+Quando o documento externo for oriundo de digitalização de
+original em suporte papel, sua assinatura eletrônica tem como principal
+objetivo atender à Lei nº 12.682, de 9 de julho de 2012, especialmente quanto
+aos dispositivos abaixo:
+Art. 1º A digitalização, o armazenamento em meio eletrônico, óptico ou
+equivalente e a reprodução de documentos públicos e privados serão
+regulados pelo disposto nesta Lei.
+Parágrafo único. Entende-se por digitalização a conversão da fiel imagem
+de um documento para código digital.
+[...]
+Art. 3º O processo de digitalização deverá ser realizado de forma a manter
+a integridade, a autenticidade e, se necessário, a confidencialidade do
+documento digital, com o emprego de certificado digital emitido no
+âmbito da Infraestrutura de Chaves Públicas Brasileira - ICP - Brasil.
+Parágrafo único. Os meios de armazenamento dos documentos digitais
+deverão protegê-los de acesso, uso, alteração, reprodução e destruição não
+autorizados.
+Art. 4º As empresas privadas ou os órgãos da Administração Pública direta
+ou indireta que utilizarem procedimentos de armazenamento de
+documentos em meio eletrônico, óptico ou equivalente deverão adotar
+sistema de indexação que possibilite a sua precisa localização, permitindo a
+posterior conferência da regularidade das etapas do processo adotado.
+[...]
+Art. 6º Os registros públicos originais, ainda que digitalizados, deverão ser
+preservados de acordo com o disposto na legislação pertinente. (grifos
+nossos)
+É possível visualizar as assinaturas de um documento externo
+acessando a opção
+na tela do documento:
+
+--- PÁGINA 122 ---
+8.5 Credenciais de Assinatura
+O
+permite que documentos sigilosos sejam editados e
+assinados por usuários de outras unidades por meio de concessão de
+credenciais de assinatura. Uma credencial de assinatura é uma permissão dada
+ao usuário para visualizar, modificará e assinar um documento (para saber mais
+sobre níveis de restrição de acesso, consulte: Processos com Restrição de
+Acesso).
+Para atribuir uma credencial de assinatura, o usuário gerador de
+um documento sigiloso deve selecionar a opção
+na
+tela do documento.
+
+--- PÁGINA 123 ---
+Deve preencher o campo “Conceder Credencial de Assinatura
+para” com nome de usuário cadastrado no sistema. O
+abrirá a opção
+“Conceder” (se o sistema não reconhecer o usuário, não mostrará a opção
+conceder e a operação não será completada). Ao clicar na opção, é mostrado
+um quadro com as credenciais de assinatura concedidas.
+Na mesma tela, é possível conceder credenciais para outros
+usuários. Por meio da coluna “Ações” do quadro com a lista de credenciais, é
+possível “Cassar a Credencial de Assinatura” (retirar a permissão do usuário):
+Um usuário que recebeu uma credencial de assinatura pode
+visualizar o íícone
+ao lado do número do processo na
+tela “Controle de Processos”. Ao selecionar o processo, o sistema abre a janela
+“Credencial de Acesso” (ao credenciar a assinatura, a credencial de acesso é
+concedida automaticamente). O usuário deverá preencher o campo “Senha” e
+o sistema abrirá a tela do processo.
+
+--- PÁGINA 124 ---
+Para assinar o documento, o usuário verificaráá ao lado do
+documento a ser assinado, na árvore de documentos, o íícone “Documento
+com Credencial de Assinatura”. Deve-se clicar no documento com credencial e
+o documento será assinado normalmente:
+1. Não é necessário enviar o processo para a unidade do usuário com
+credencial para assinatura de documento sigiloso.
+8.6 Assinaturas por Usuários de outras Unidades
+O “Bloco de Assinatura” é a funcionalidade utilizada para que um
+documento seja assinado por um ou mais usuários de unidades diferentes da
+unidade elaboradora. O bloco permite a assinatura simultânea de vários
+documentos, com ou sem visualização de seus conteúdos. No entanto, não é
+possível disponibilizar bloco de assinatura para a unidade geradora do
+processo. Neste caso, o processo deverá ser atribuído para o usuário que
+realizará a assinatura. Também é possível assinar documentos de um bloco de
+assinatura antes da disponibilização (para saber mais sobre como assinar
+documentos de um bloco por pessoas da mesma unidade, consulte: Assinar
+Documentos em Bloco de Assinatura, dica 1)
+Diferentemente dos blocos internos e blocos de reunião, serão
+incluídos documentos para assinatura em blocos e não, processos, embora o
+sistema permita a visualização dos processos onde estão incluídos os
+documentos
+do
+bloco
+(para
+saber
+mais
+sobre
+blocos,
+consulte:
+Acompanhamento Especial, Blocos Internos, Bloco de Reunião e Assinaturas
+por Usuários de outras Unidades).
+É possível incluir em um bloco de assinatura vários documentos de
+um processo ou de vários processos de uma unidade. Também é possível
+disponibilizar o bloco para várias unidades.
+Dicas
+
+--- PÁGINA 125 ---
+Para criar um bloco de assinatura, deve-se clicar no documento de
+um processo e selecionar o íícone
+na barra de menu do
+documento:
+O sistema abre a tela “Incluir em Bloco de Assinatura”. Exibe um
+quadro com a relação de documentos daquele processo que podem ser
+incluídos em bloco de assinatura. Devem ser selecionados os documentos a
+serem incluídos e selecionar um dos blocos disponíveis na barra de rolagem da
+opção “Bloco”, ou clicar em “Novo” para criar um bloco.
+Ao selecionar a opção “Novo”, o sistema abre a tela “Novo Bloco
+de Assinatura” onde deverá ser preenchido o campo descrição e informadas as
+unidades para disponibilização do bloco.
+
+--- PÁGINA 126 ---
+Ao salvar informações, o sistema retorna para a tela anterior e
+disponibiliza o bloco criado na barra de rolagem do campo “Bloco”. Deverão
+ser selecionados os documentos da lista e clicar na opção incluir.
+Ainda nesta tela, é possível selecionar a opção “Ir para Blocos de
+Assinatura”. O sistema exibirá um quadro contendo a relação de todos os
+blocos de assinatura da unidade.
+O íícone
+serve para possibilitar a assinatura dos documentos do
+bloco para usuários da unidade geradora, antes da disponibilização.
+O íícone
+permite a visualização de
+documentos do bloco.
+
+--- PÁGINA 127 ---
+O íícone
+permite a disponibilização do bloco para
+as unidades em que determinados usuários deverão assinar documentos do
+bloco.
+O íícone
+serve para concluir blocos de assinatura
+que foram assinados, foram retornados e, portanto, já concluíram o seu
+propósito.
+O íícone
+permite alterar dados do bloco de assinatura, tais
+como número, descrição e unidades de disponibilização.
+O íícone
+serve para excluir blocos de assinatura que
+não possuam documentos incluídos.
+Após disponibilizar o bloco, é possível acompanhar a assinatura
+dos documentos por meio do íícone
+.
+O sistema mostra um quadro com a relação de documentos do
+bloco e as respectivas assinaturas.
+8.7 Assinar Documentos em Bloco de Assinatura
+Para assinar documentos em um bloco de assinaturas, os usuários
+da unidade de destino do bloco devem selecionar a opção "Blocos de
+Assinatura" no menu principal:
+
+--- PÁGINA 128 ---
+O
+próximo
+passo
+é
+verificará
+os
+blocos
+de
+assinatura
+disponibilizados para a unidade (aparecerá a indicação "disponibilizado" na
+linha do bloco).
+Basta
+clicar
+no
+íícone
+e
+todos
+os
+documentos serão assinados de uma vez.
+Também é possível visualizar o conteúdo de cada documento que
+deverá ser assinado ao clicar no íícone
+.
+Ao abrir o quadro do bloco de assinaturas, estarão organizados por
+colunas os links de cada documento e de cada processo.
+
+--- PÁGINA 129 ---
+Ao clicar no link, abre-se outra página que disponibilizará a
+visualização do documento, mantendo aberta a página que contém o quadro
+do bloco.
+Para assinar documento a documento, basta acessar a página
+anterior e clicar no íícone
+. Caso seja preferível visualizar
+documento a documento e assinar vários de uma vez, também é possível clicar
+em cada link (várias páginas serão abertas, mostrando cada documento) e
+retornar à página que contém o quadro do bloco, clicar na caixa de seleção dos
+documentos que se deseja assinar e clicar na opção
+.
+Abrirá uma janela mostrando os dados da pessoa logada no
+sistema e solicitando o preenchimento do campo senha ou uso de certificado
+digital. Ao efetuar o procedimento, os documentos serão assinados.
+1. Embora não seja possível disponibilizar um bloco de assinatura para a
+unidade geradora, o sistema dá a opção de assinatura antes da
+disponibilização do bloco (também com um só clique). Esta opção pode ser
+útil quando houver muitos documentos para serem assinados por um
+mesmo usuário, por exemplo, no caso de duplicação de processos (para
+saber mais sobre duplicar processos, consulte: Duplicar Processo). O íícone
+Dicas
+
+--- PÁGINA 130 ---
+indica que a opção de assinatura do bloco está
+disponível também para usuários da unidade:
+2. É possível a inclusão de um único documento em vários blocos de
+assinatura.
+3. É possível adicionar documentos de processos diferentes em um bloco de
+assinatura.
+
+--- PÁGINA 131 ---
+Parte IX
+Copiando e
+Movendo
+Informações
+
+--- PÁGINA 132 ---
+9 Copiando e Movendo Informações
+9.1 Duplicar Processo
+A funcionalidade de duplicação pode ser usada quando é
+necessário utilizar os documentos de um processo como modelos para um
+novo processo, por meio do íícone
+:
+Não se confunde com uma cópia do processo porque, ao serem
+duplicados, os documentos perdem as assinaturas. O sistema gera um novo
+NUP para o processo duplicado assim como gera nova numeração para os
+documentos. Todas as assinaturas e ciências são perdidas (para saber mais
+sobre assinaturas e ciência, consulte: Assinaturas e Ciência).
+O sistema duplica documentos externos, mas não duplica e-mails
+que fazem parte da árvore de documentos do processo e minutas de outras
+unidades (as minutas produzidas na unidade que efetua a duplicação são
+duplicadas).
+Para duplicar um processo, basta selecionar o processo a ser
+duplicado, clicar no íícone
+(tela do processo). O sistema abrirá a
+tela “Duplicar Processo”. A tela contém um campo para preenchimento do
+
+--- PÁGINA 133 ---
+nome do interessado e um quadro pré-selecionando todos os documentos que
+poderão ser duplicados. Devem-se selecionar os documentos que serão
+duplicados ou manter a pré-seleção com as duplicações possíveis. Clicar em
+duplicar.
+9.2 Mover Documentos Externos
+O
+disponibiliza um modo de mover documentos externos de
+um processo para outro. Os documentos gerados no sistema não são movidos,
+mas podem ser referenciados em outros documentos, de modo que seja
+inserido um link que permita a visualização do documento, não importa em
+que processo estiver (para saber mais sobre a inserção de links, consulte:
+Referenciar Documentos ou Processos).
+Para mover um documento externo, deve ser selecionado o íícone
+:
+O sistema abrirá uma tela em que deverá ser inserido o número do
+processo de destino. Ao clicar em
+, automaticamente o
+vai
+preencher o campo “Tipo” com o respectivo tipo de processo de destino,
+habilitará o campo “Motivo” e o botão
+.
+
+--- PÁGINA 134 ---
+No processo de origem fica registrado o motivo da remoção e o
+processo de destino do documento:
+Já, o processo de destino, receberá o documento recebido em sua
+árvore. O registro da transferência fica disponível na consulta ao andamento do
+processo.
+9.3 Alterar a Ordem dos Documentos
+O
+permite a alteração da ordem dos documentos na árvore de
+documentos de um processo. Esta funcionalidade serve para corrigir inserções
+de documentos que, dispostos em sequência cronológica, acabem dificultando
+o entendimento das informações de um processo. A alteração da ordem dos
+documentos no processo não pode ser realizada por usuário com perfil básico,
+devendo ser solicitado a usuário com perfil de Administrador. A operação ficaráá
+registrada no histórico do processo.
+
+--- PÁGINA 135 ---
+Parte X
+Usuários
+Externos
+
+--- PÁGINA 136 ---
+10 Usuários Externos
+10.1 Interface com Usuários Externos
+Um usuário externo é pessoa autorizada a visualizar processos e
+documentos do
+. Também pode obter autorização para assinar documentos
+disponibilizados para este fim.
+Um usuário externo poderá obter a visualização integral de um
+processo, incluindo todas as suas atualizações posteriores à disponibilização do
+acesso. Poderá obter visualização por um prazo determinado ou, em vez disso,
+pode ser que o usuário obtenha acesso à verificação de documentos
+específicos dentro de um processo, podendo modificará, ou não, tais
+documentos. Em regra, documentos gerados no
+são disponibilizados em
+formato html. Já, documentos externos, importados para o sistema, serão
+visualizados nos formatos em que estiverem no processo.
+A autenticidade de documentos gerados no
+pode ser checada
+por meio de um endereço de página na Internet, um código verificador e um
+código CRC, disponíveis logo abaixo da identificação dos usuários signatários:
+Ao acessar o endereço indicado, abre-se uma página em que
+poderá ser checada a autenticidade do documento por meio da inserção dos
+códigos fornecidos:
+
+--- PÁGINA 137 ---
+10.2 Enviar E-mails
+Os e-mails enviados pelo
+passam a compor automaticamente a
+árvore de documentos do processo. Há duas maneiras de enviar
+correspondência eletrônica pelo sistema. Uma delas é clicar no número do
+processo e selecionar o íícone
+:
+A segunda é clicar no documento que se deseja enviar por e-mail e
+clica no íícone
+:
+
+--- PÁGINA 138 ---
+Em ambos os casos, o sistema abrirá uma tela que permite enviar
+e-mails anexando arquivos externos ou selecionando documentos do processo
+para serem enviados. Além disso, o sistema também permite inserir mensagens
+de texto padronizadas e constituir grupos de e-mail.
+Para o envio de mensagens, o campo “De” deve ser preenchido
+com um endereço de e-mail previamente cadastrado no sistema e disponível
+na barra de rolagem. O campo “Para” é de livre preenchimento e deve receber
+um endereço válido de e-mail. O campo “Mensagem” pode permanecer em
+branco, permitindo livre digitação. Também poderá ser feita seleção de um dos
+itens da barra de rolagem do campo “Mensagem”, permitindo a escolha de um
+texto padrão. Clicar em enviar. O e-mail, então, passará a compor a árvore do
+processo.
+
+--- PÁGINA 139 ---
+O sistema também exibe um quadro contendo documentos do
+processo que podem ser enviados juntamente com a mensagem. Basta clicar
+na caixa de seleção dos documentos desejados ou selecionar todos. Ainda, é
+possível realizar o upload de documentos externos para serem enviados junto
+com a mensagem:
+10.3 Grupos de E-mail
+
+--- PÁGINA 140 ---
+É facultado às unidades criarem grupos de e-mail. Os grupos de e-
+mail são disponibilizados por meio do íícone
+na tela
+“Enviar Correspondência Eletrônica”:
+Para criar um grupo, secione a opção “Grupos de E-mail” no menu
+principal e, na tela seguinte, selecione a opção “Novo”:
+Na tela “Novo Grupo de E-mail”, devem ser preenchidos os
+campos “Nome” e “Descrição do Grupo”. Logo abaixo há dois campos: um para
+inclusão do endereço de e-mail e outro para descrição. À medida que forem
+sendo adicionados os participantes no grupo, o sistema abre um quadro em
+que vai adicionando e organizando os membros por ordem de inclusão. É
+possível alterar e remover os itens do quadro por meio das opções na coluna
+“Ações”:
+
+--- PÁGINA 141 ---
+É possível consultar, editar ou remover os grupos por meio das
+opções na coluna “Ações”.
+Ao salvar informações, o sistema abre outra tela com a relação dos
+grupos de e-mails para a unidade:
+10.4 Acesso Externo
+É possível permitir o acesso aos interessados de um processo. O
+acesso externo é dado somente a processos na íntegra e por um período
+determinado.
+Para permitir o acesso externo, é necessário clicar no número do
+processo e selecionar o íícone
+:
+
+--- PÁGINA 142 ---
+O sistema abre a tela “Gerenciar Disponibilizações de Acesso
+Externo”. Deve ser selecionado o e-mail da unidade na barra de rolagem do
+campo específico. Devem ser preenchidos os campos “Destinatário” e “e-mail
+do Destinatário”. Estes campos são de livre preenchimento e o destinatário do
+acesso não precisa estar previamente cadastrado no sistema. Deve ser
+informado o motivo do acesso. O sistema também solicita a determinação de
+um período para disponibilidade do acesso e a senha do usuário responsável
+pela operação.
+O destinatário receberá um e-mail que contém um link para o
+processo e a informação da validade da disponibilização de acesso. Este e-mail
+não passa a fazer parte da árvore de documentos do processo. Mas, a operação
+é registrada automaticamente no histórico do processo.
+Quando o destinatário clicar no link, o sistema abrirá a tela de
+“Acesso Externo Autorizado”. O andamento do processo poderá ser
+acompanhado, visualizando suas autuações, lista de documentos e lista de
+andamentos. O sistema também disponibiliza a opção de conversão da tela em
+um arquivo PDF.
+
+--- PÁGINA 143 ---
+10.5 Assinatura por Usuário Externo
+O
+disponibiliza meios para que uma pessoa estranha ao órgão
+ou uma entidade possa atuar no sistema como um usuário externo, podendo
+assinar documentos produzidos no sistema e acompanhar o andamento do
+processo. Esta funcionalidade exige prévio cadastro no sistema como um
+“Usuário Externo”.
+Para liberar assinatura para usuário cadastrado, é necessário
+selecionar o número do processo a receber a assinatura, selecionar o
+documento a ser assinado na árvore de documentos e selecionar o íícone
+na tela do documento.
+O sistema abre a tela Gerenciar Assinaturas Externas. Deverá ser
+selecionado e-mail da unidade disponível na barra de rolagem do campo
+específico. O campo “Liberar Assinatura Externa para” deverá ser preenchido
+com o e-mail do usuário externo previamente cadastrado. A opção com
+“Visualização Integral do Processo” somente deve ser marcada se o usuário
+externo estiver autorizado a acompanhar as atualizações e visualizar todos os
+
+--- PÁGINA 144 ---
+documentos do processo cujo documento deva ser assinado por ele. Clicar em
+“Liberar”. O sistema exibe um quadro com a lista de liberações de assinatura
+externa. A única ação possível é o cancelamento da liberação.
+O usuário externo receberá um e-mail contendo um link que dá
+acesso à página de login do
+. Ao digitar e-mail e senha, o sistema abre a tela
+“Controle de Acessos Externos”. Esta tela contém um quadro com a relação de
+processos que devam receber a assinatura e respectivos documentos.
+Caso o usuário tenha acesso à visualização integral do processo ele
+poderá clicar no link do processo e o sistema abrirá outra tela: “Acesso Externo
+
+--- PÁGINA 145 ---
+Autorizado” onde ele poderá fazer o acompanhamento dos trâmites do
+processo.
+Caso o usuário não receba acesso à visualização integral do
+processo, constarão no quadro o número do processo e o número do
+documento a ser assinado. Porém, o usuário terá acesso somente à
+visualização do documento.
+É possível assinar o documento com ou sem visualização dos
+conteúdos do processo e do documento.
+Esta operação é registrada automaticamente no histórico do
+processo.
+1. A assinatura do documento não retira a permissão para visualização
+integral do processo. O usuário poderá acompanhar o processo por meio
+de quadros com a relação de autuações, lista de documentos e lista de
+andamentos de maneira permanente.
+2. O sistema habilita mais de uma assinatura em documentos enviados para
+assinatura por usuário externo.
+Dicas
+
+--- PÁGINA 146 ---
+Parte XI
+Arquivamento
+
+--- PÁGINA 147 ---
+11 Arquivamento
+11.1 Arquivamento e Contagem de Temporalidade
+No
+, o arquivamento será realizado de forma lógica, sem a
+necessidade de distinguir as fases de guarda do processo. Ao finalizar, a
+instrução de um processo no âmbito de sua atuação, a unidade deverá realizar
+a operação de conclusão do processo. Outra opção é não marcar a opção
+“Manter aberto na unidade atual” quando a unidade encaminhar para outra
+sem que seja necessário continuar o processo aberto. Quando o processo
+houver alcançado seu objetivo, ele deverá ser concluído em todas as unidades.
+A partir de então, a contagem da temporalidade será iniciada para fins
+arquivísticos.
+No âmbito do
+, a temporalidade corresponde ao prazo em que
+um processo deverá permanecer concluído em todas as unidades e a devida
+destinação ao final deste prazo: eliminação ou guarda permanente. Como o
+sistema não permite o trâmite de documentos avulsos, em regra os
+documentos assumirão a temporalidade dos processos em que estiverem
+inseridos (para saber mais sobre exceções a esta regra, consulte: Documentos
+Gerados no Sistema).
+1. Quaisquer dúvidas ou atividades relacionadas ao arquivamento físico de
+documentos deverão ser reportadas à unidade responsável gestão
+documental do órgão ou entidade.
+11.2 Solicitar Desarquivamento (conferir via física)
+As vias físicas (papel) de documentos que forem digitalizadas e
+importadas para o sistema deverão ser encaminhadas ao Arquivo, com a
+necessária anotação no canto superior direito do número
+(protocolo de
+documento).
+Um usuário poderá solicitar o desarquivamento de um documento
+digitalizado se precisar fazer alguma conferência com o original em papel. A
+operação de desarquivamento poderá ser efetuada por meio do íícone
+Dicas
+
+--- PÁGINA 148 ---
+, que somente aparece se o Documento Externo possuir
+via física arquivada na unidade competente (com localizador atribuído).
+O
+permite configurar certas unidades com perfil de
+arquivamento. Somente estas unidades poderão atribuir um localizador a um
+documento físico.
+Ao
+atribuir
+um
+localizador,
+o
+sistema
+automaticamente
+disponibiliza
+o
+íícone
+na
+tela
+do
+documento
+correspondente.
+Selecionando a opção de desarquivamento, o usuário poderá
+informar à unidade de arquivamento do original físico sobre a necessidade de
+consulta. O sistema exibirá a tela “Solicitar Desarquivamento” que contém um
+quadro com a relação de todos os documentos do processo que podem ser
+desarquivados. O usuário tem a opção solicitar todos os documentos possíveis
+ou selecionar apenas os documentos que deseja consultar.
+
+--- PÁGINA 149 ---
+Basta clicar em “Solicitar” e o sistema exibirá a mensagem abaixo:
