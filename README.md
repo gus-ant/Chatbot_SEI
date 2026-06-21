@@ -12,6 +12,10 @@
 ![Offline](https://img.shields.io/badge/execução-100%25%20offline-0a3d8f?style=flat-square&logo=lock&logoColor=white)
 ![GPU](https://img.shields.io/badge/GPU-RX%20580%20·%20Vulkan-ef9f27?style=flat-square)
 
+<br>
+
+![Interface do Chatbot](assets/interface.png)
+
 </div>
 
 ---
