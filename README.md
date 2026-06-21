@@ -4,6 +4,14 @@
 
 ### Pipeline de Retrieval-Augmented Generation especializado no manual do usuário do<br>Sistema Eletrônico de Informações
 
+
+<br>
+
+![Interface do Chatbot](assets/interface.jpg)
+
+</div>
+
+
 ![Status](https://img.shields.io/badge/status-ativo-00c2a8?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.11+-1e6fff?style=flat-square&logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-orquestração-1a7a6e?style=flat-square)
@@ -11,13 +19,6 @@
 ![Streamlit](https://img.shields.io/badge/Interface-Streamlit-00c2a8?style=flat-square&logo=streamlit&logoColor=white)
 ![Offline](https://img.shields.io/badge/execução-100%25%20offline-0a3d8f?style=flat-square&logo=lock&logoColor=white)
 ![GPU](https://img.shields.io/badge/GPU-RX%20580%20·%20Vulkan-ef9f27?style=flat-square)
-
-<br>
-
-![Interface do Chatbot](assets/interface.png)
-
-</div>
-
 ---
 
 ## Sobre o projeto
@@ -80,8 +81,8 @@ Chat web com **tema escuro personalizado** (paleta azul/cyan-mint), histórico d
 
 ```bash
 # 1. clonar o repositório
-git clone https://github.com/seu-usuario/rag-sei.git
-cd rag-sei
+git clone https://github.com/gus-ant/Chatbot_SEI
+cd Chatbot_SEI
 
 # 2. instalar dependências
 pip install -r requirements.txt
@@ -105,6 +106,6 @@ streamlit run app.py
 
 <div align="center">
 
-![Desenvolvido com por **Gustavo**](https://img.shields.io/badge/Desenvolvido%20por%20Gustavo-solução%20local-00c2a8?style=flat-square)
+![Desenvolvido com por **Gustavo**](https://img.shields.io/badge/Desenvolvido%20por%20gusant-solução%20local-00c2a8?style=flat-square)
 
 </div>
